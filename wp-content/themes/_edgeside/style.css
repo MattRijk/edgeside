@@ -37,6 +37,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Header
 # Content
 	## Posts and pages
+	## Front page
 	## Comments
 # Infinite scroll
 # Media
@@ -814,7 +815,7 @@ a:active {
 }
 
 .search-form {
-	margin: .7em 0;
+	margin: .9em 0;
 }
 
 #search-box {
@@ -895,6 +896,23 @@ a:active {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+/*--------------------------------------------------------------
+## Front Page
+--------------------------------------------------------------*/
+.front-page-h2 {
+	color: #fff;
+	margin: 0 0 0 1em;
+}
+
+.front-page-ul {
+	margin-left: 10px;
+	padding-bottom: .5em;
+}
+
+.front-page-li {
+	color: #fff;
+
 }
 
 /*--------------------------------------------------------------

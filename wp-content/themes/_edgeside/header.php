@@ -26,8 +26,9 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+			<a href="https://edgeside001-mattrijk.c9users.io" >
 			<img id="logo" class="logo" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/edge-side-logo.svg"/>
-
+			</a>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

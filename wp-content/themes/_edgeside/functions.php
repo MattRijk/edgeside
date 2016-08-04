@@ -129,6 +129,54 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="search-box-title" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+		register_sidebar( array(
+		'name'          => 'Front Page Text 1',
+		'id'            => 'front-page-text-1',
+		'before_widget' => '<section id="front-text-1" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		register_sidebar( array(
+		'name'          => 'Front Page Text 2',
+		'id'            => 'front-page-text-2',
+		'before_widget' => '<section id="front-text-2" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		register_sidebar( array(
+		'name'          => 'Front Page Main',
+		'id'            => 'front-page-main',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		register_sidebar( array(
+		'name'          => 'Front Page One',
+		'id'            => 'front-page-one',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		register_sidebar( array(
+		'name'          => 'Front Page Two',
+		'id'            => 'front-page-two',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+		register_sidebar( array(
+		'name'          => 'Front Page Three',
+		'id'            => 'front-page-three',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 	
 	
 }
