@@ -96,6 +96,8 @@ function _edgeside_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 	
+	/* _______ Pages _______*/
+	// Search Engine Optimization Page Widget Area
 	register_sidebar( array(
 		'name'          => 'Search Engine Optimization',
 		'id'            => 'page-1',
@@ -104,7 +106,8 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	// Web Development Page Widget Area
+	register_sidebar( array(
 		'name'          => 'Web Development',
 		'id'            => 'page-2',
 		'before_widget' => '<section id="page-widget" class="widget %2$s">',
@@ -112,8 +115,8 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-	
-		register_sidebar( array(
+		// Social Media Page Widget Area
+	register_sidebar( array(
 		'name'          => 'Social Media',
 		'id'            => 'page-3',
 		'before_widget' => '<section id="page-widget" class="widget %2$s">',
@@ -121,7 +124,10 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	
+	/* _______ Header _______*/
+	// Front Page Search Box Widget Area
+	register_sidebar( array(
 		'name'          => 'Search',
 		'id'            => 'search-box',
 		'before_widget' => '<section id="search-box" class="widget %2$s">',
@@ -129,7 +135,12 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="search-box-title" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	
+	
+	/* _______ Front Page _______*/
+	
+	// Front Page Text 1 Widget Area
+	register_sidebar( array(
 		'name'          => 'Front Page Text 1',
 		'id'            => 'front-page-text-1',
 		'before_widget' => '<section id="front-text-1" class="widget %2$s">',
@@ -137,7 +148,8 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	// Front Page Text 2 Widget Area
+	register_sidebar( array(
 		'name'          => 'Front Page Text 2',
 		'id'            => 'front-page-text-2',
 		'before_widget' => '<section id="front-text-2" class="widget %2$s">',
@@ -145,7 +157,9 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	
+	// Front Page Main Image Widget Area
+	register_sidebar( array(
 		'name'          => 'Front Page Main',
 		'id'            => 'front-page-main',
 		'before_widget' => '<section id="page-widget" class="widget %2$s">',
@@ -153,7 +167,9 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	
+	// Front Page Aside One Widget Area
+	register_sidebar( array(
 		'name'          => 'Front Page One',
 		'id'            => 'front-page-one',
 		'before_widget' => '<section id="page-widget" class="widget %2$s">',
@@ -161,7 +177,8 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	// Front Page Aside Two Widget Area
+	register_sidebar( array(
 		'name'          => 'Front Page Two',
 		'id'            => 'front-page-two',
 		'before_widget' => '<section id="page-widget" class="widget %2$s">',
@@ -169,7 +186,8 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-		register_sidebar( array(
+	// Front Page Aside Three Widget Area
+	register_sidebar( array(
 		'name'          => 'Front Page Three',
 		'id'            => 'front-page-three',
 		'before_widget' => '<section id="page-widget" class="widget %2$s">',
@@ -178,6 +196,64 @@ function _edgeside_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 	
+	/* _______ Footer _______*/
+	
+	
+	// Footer One Widget Area
+	register_sidebar( array(
+		'name'          => 'Social Icons',
+		'id'            => 'social-icons',
+		'before_widget' => '<section id="" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	// Footer Two Widget Area
+	register_sidebar( array(
+		'name'          => 'Footer One',
+		'id'            => 'footer-one',
+		'before_widget' => '<section id="" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	// Footer Two Widget Area
+	register_sidebar( array(
+		'name'          => 'Footer Two',
+		'id'            => 'footer-two',
+		'before_widget' => '<section id="" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	// Footer Three Widget Area
+	register_sidebar( array(
+		'name'          => 'Footer Three',
+		'id'            => 'footer-three',
+		'before_widget' => '<section id="" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	// Footer Four Widget Area
+	register_sidebar( array(
+		'name'          => 'Footer Four',
+		'id'            => 'footer-four',
+		'before_widget' => '<section id="" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	// Footer Five Widget Area
+	register_sidebar( array(
+		'name'          => 'Footer Five',
+		'id'            => 'footer-five',
+		'before_widget' => '<section id="" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 	
 }
 
