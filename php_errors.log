@@ -1,0 +1,109 @@
+[03-Aug-2016 16:22:01 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/wp-admin/custom-header.php on line 1125
+[03-Aug-2016 16:22:01 UTC] PHP Stack trace:
+[03-Aug-2016 16:22:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Aug-2016 16:22:01 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[03-Aug-2016 16:22:01 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 16:22:01 UTC] PHP   4. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 16:22:01 UTC] PHP   5. Custom_Image_Header->get_header_dimensions() /home/ubuntu/workspace/wp-admin/custom-header.php:1219
+[03-Aug-2016 16:22:26 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/wp-admin/custom-header.php on line 1125
+[03-Aug-2016 16:22:26 UTC] PHP Stack trace:
+[03-Aug-2016 16:22:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Aug-2016 16:22:26 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[03-Aug-2016 16:22:26 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 16:22:26 UTC] PHP   4. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 16:22:26 UTC] PHP   5. Custom_Image_Header->get_header_dimensions() /home/ubuntu/workspace/wp-admin/custom-header.php:1219
+[03-Aug-2016 20:51:01 UTC] PHP Fatal error:  Call to undefined function register_page() in /home/ubuntu/workspace/wp-content/themes/_edgeside/functions.php on line 99
+[03-Aug-2016 20:51:01 UTC] PHP Stack trace:
+[03-Aug-2016 20:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Aug-2016 20:51:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[03-Aug-2016 20:51:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Aug-2016 20:51:01 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[03-Aug-2016 20:51:01 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[03-Aug-2016 20:51:01 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:51:01 UTC] PHP   7. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:51:01 UTC] PHP   8. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[03-Aug-2016 20:51:01 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:51:01 UTC] PHP  10. _edgeside_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:51:01 UTC] PHP Fatal error:  Call to undefined function register_page() in /home/ubuntu/workspace/wp-content/themes/_edgeside/functions.php on line 99
+[03-Aug-2016 20:51:01 UTC] PHP Stack trace:
+[03-Aug-2016 20:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[03-Aug-2016 20:51:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[03-Aug-2016 20:51:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[03-Aug-2016 20:51:01 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Aug-2016 20:51:01 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[03-Aug-2016 20:51:01 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[03-Aug-2016 20:51:01 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:51:01 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:51:01 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[03-Aug-2016 20:51:01 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:51:01 UTC] PHP  11. _edgeside_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:52:21 UTC] PHP Fatal error:  Call to undefined function register_page() in /home/ubuntu/workspace/wp-content/themes/_edgeside/functions.php on line 99
+[03-Aug-2016 20:52:21 UTC] PHP Stack trace:
+[03-Aug-2016 20:52:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[03-Aug-2016 20:52:21 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[03-Aug-2016 20:52:21 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[03-Aug-2016 20:52:21 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[03-Aug-2016 20:52:21 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[03-Aug-2016 20:52:21 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[03-Aug-2016 20:52:21 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:52:21 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:52:21 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[03-Aug-2016 20:52:21 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 20:52:21 UTC] PHP  11. _edgeside_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 00:58:35 UTC] PHP Fatal error:  Cannot redeclare _edgeside_widgets_init() (previously declared in /home/ubuntu/workspace/wp-content/themes/_edgeside/functions.php:88) in /home/ubuntu/workspace/wp-content/themes/_edgeside/functions.php on line 121
+[04-Aug-2016 00:58:35 UTC] PHP Stack trace:
+[04-Aug-2016 00:58:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Aug-2016 00:58:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-Aug-2016 00:58:35 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Aug-2016 00:58:35 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-Aug-2016 00:58:36 UTC] PHP Fatal error:  Cannot redeclare _edgeside_widgets_init() (previously declared in /home/ubuntu/workspace/wp-content/themes/_edgeside/functions.php:88) in /home/ubuntu/workspace/wp-content/themes/_edgeside/functions.php on line 121
+[04-Aug-2016 00:58:36 UTC] PHP Stack trace:
+[04-Aug-2016 00:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[04-Aug-2016 00:58:36 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[04-Aug-2016 00:58:36 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[04-Aug-2016 00:58:36 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Aug-2016 00:58:36 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-Aug-2016 00:59:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_edgeside_new_widgets_init' not found or invalid function name in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[04-Aug-2016 00:59:02 UTC] PHP Stack trace:
+[04-Aug-2016 00:59:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[04-Aug-2016 00:59:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[04-Aug-2016 00:59:02 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[04-Aug-2016 00:59:02 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-Aug-2016 00:59:02 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-Aug-2016 00:59:02 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[04-Aug-2016 00:59:02 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 00:59:02 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 00:59:02 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[04-Aug-2016 00:59:02 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 02:01:11 UTC] PHP Warning:  DOMDocument::loadHTML(): ID page-widget already defined in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[04-Aug-2016 02:01:11 UTC] PHP Stack trace:
+[04-Aug-2016 02:01:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Aug-2016 02:01:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[04-Aug-2016 02:01:11 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 02:01:11 UTC] PHP   4. wp_ajax_save_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 02:01:11 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:1935}() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:1935
+[04-Aug-2016 02:01:11 UTC] PHP   6. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:1935
+[04-Aug-2016 02:01:11 UTC] PHP   7. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[04-Aug-2016 02:01:11 UTC] PHP   8. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[04-Aug-2016 02:04:13 UTC] PHP Warning:  DOMDocument::loadHTML(): ID page-widget already defined in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[04-Aug-2016 02:04:13 UTC] PHP Stack trace:
+[04-Aug-2016 02:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[04-Aug-2016 02:04:13 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[04-Aug-2016 02:04:13 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[04-Aug-2016 02:04:13 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[04-Aug-2016 02:04:13 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[04-Aug-2016 02:04:13 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[04-Aug-2016 02:04:13 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[04-Aug-2016 02:04:13 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[04-Aug-2016 02:04:13 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[04-Aug-2016 02:04:27 UTC] PHP Warning:  DOMDocument::loadHTML(): ID page-widget already defined in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[04-Aug-2016 02:04:27 UTC] PHP Stack trace:
+[04-Aug-2016 02:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[04-Aug-2016 02:04:27 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[04-Aug-2016 02:04:27 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[04-Aug-2016 02:04:27 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[04-Aug-2016 02:04:27 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[04-Aug-2016 02:04:27 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[04-Aug-2016 02:04:27 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[04-Aug-2016 02:04:27 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[04-Aug-2016 02:04:27 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
