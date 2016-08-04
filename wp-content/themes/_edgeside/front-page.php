@@ -18,7 +18,21 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<?php echo 'front-page'; ?>
+			<!-- main widget area -->
+			<!-- #main widget area -->
 			
+			<section>
+			<!-- search opt widget -->
+			
+			<!-- #search opt widget -->
+			
+			<!-- websites widget -->
+			<!-- #websites widget -->
+			
+			<!-- site management widget -->
+			<!-- #site management widget -->
+				
+			</section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

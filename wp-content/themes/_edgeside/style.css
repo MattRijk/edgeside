@@ -833,7 +833,8 @@ a:active {
 
 .search-submit {
 	float: right;
-	margin-right: 3px;
+	margin-right: 5px;
+	margin-left: 2px;
 }
 
 #search-box-title {
