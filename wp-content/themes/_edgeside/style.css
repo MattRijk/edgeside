@@ -45,6 +45,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+	
+### I-Site/Tablet Screens *M
+# M-Navigation
+# M-Header
+# M-Content
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -415,6 +420,7 @@ dd {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
+
 }
 
 table {
@@ -673,7 +679,15 @@ a:active {
 	width: 50%;
 }
 
-
+.entry-content {
+	width: 127;
+	background-color: #ffffdc;
+}
+#floated {
+	float: left;
+	width: 127;
+	background-color: blue;
+}
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -863,8 +877,27 @@ a:active {
     color: #000;
 }
 
-#entry-content{
-    margin: 1.5em 1em 0;
+#primary.content-area {
+	margin: 0 1em;
+}
+
+.entry-title {
+	margin: 0 0;
+
+}
+
+.entry-title a {
+	color: #000;
+	text-decoration: none;
+}
+
+.posted-on {
+	font-size: .9em;
+}
+
+.entry-meta a {
+	text-decoration: none;
+	font-size: .9em;
 }
 
 
@@ -876,7 +909,7 @@ a:active {
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+	margin: 1.0em 0 1.5em;
 }
 
 .byline,
@@ -892,7 +925,7 @@ a:active {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: .8em 0 0;
 }
 
 .page-links {
@@ -955,7 +988,7 @@ a:active {
 	width:auto;
 }
 
-#menu-footer-menu li { margin: .7em 0; }
+#menu-footer-menu li { margin: .8em 0; }
 
 #menu-footer-menu a {
 	width:100%;
@@ -967,7 +1000,35 @@ a:active {
 
 }
 #menu-footer-menu a:hover {
-	background-color: rgba(0, 0, 0, .25);
+	background-color: rgba(107, 154, 240, 0.6);
+}
+
+#menu-footer-menu-2 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #000;
+	width:auto;
+}
+
+#menu-footer-menu-2 li { margin: .8em 0; }
+
+#menu-footer-menu-2 a {
+	width:100%;
+	border: 2px solid #000;
+	text-decoration: none;
+	padding:5px;
+	margin:0px;
+	color: #000;
+
+}
+#menu-footer-menu-2 a:hover {
+	background-color:rgba(107, 154, 240, 0.6);
+}
+
+.site-info {
+	margin-left: 1.3em;
+	font-size: .9em;
 }
 
 /*--------------------------------------------------------------

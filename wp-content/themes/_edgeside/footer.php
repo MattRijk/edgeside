@@ -47,26 +47,15 @@
 		
 		<!-- footer five section -->
 		<!-- #footer five section -->
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', '_edgeside' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', '_edgeside' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', '_edgeside' ), '_edgeside', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			Copyright &copy; Edge Side Media 2016
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+	
 </body>
 </html>

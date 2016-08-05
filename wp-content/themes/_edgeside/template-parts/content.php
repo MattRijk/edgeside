@@ -8,9 +8,15 @@
  */
 
 ?>
-
+<!-- This page displays a single post  -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
+
+   <!-- Featured Image -->
+ 	<div class="post-header-image">
+		<?php echo the_post_thumbnail('post-header-image'); ?>
+	</div>
+	<!-- #Featured Image -->
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -24,9 +30,13 @@
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
-	</header><!-- .entry-header -->
 
+	</header><!-- .entry-header -->
+	
+	
 	<div class="entry-content">
+		
+		
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
@@ -39,9 +49,12 @@
 				'after'  => '</div>',
 			) );
 		?>
+		
+		
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php _edgeside_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+<hr> <!-- post separation line -->
