@@ -205,16 +205,16 @@ function _edgeside_widgets_init() {
 		'id'            => 'social-icons',
 		'before_widget' => '<section id="" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="" class="widget-title">',
+		'before_title'  => '<h2 class="widget-title-footer">',
 		'after_title'   => '</h2>',
 	) );
-	// Footer Two Widget Area
+	// Footer One Widget Area
 	register_sidebar( array(
 		'name'          => 'Footer One',
 		'id'            => 'footer-one',
-		'before_widget' => '<section id="" class="widget %2$s">',
+		'before_widget' => '<section id="footer-one-section" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="" class="widget-title">',
+		'before_title'  => '<h2 class="widget-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	// Footer Two Widget Area
@@ -223,7 +223,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'footer-two',
 		'before_widget' => '<section id="" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="" class="widget-title">',
+		'before_title'  => '<h2 class="widget-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	// Footer Three Widget Area

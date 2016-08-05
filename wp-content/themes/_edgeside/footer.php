@@ -33,6 +33,7 @@
 		<div class="widget-area" role="complementary">
 			<?php dynamic_sidebar('footer-two'); ?>
 		</div>
+		
 		<!-- #footer two section -->
 		
 		<!-- footer three section -->

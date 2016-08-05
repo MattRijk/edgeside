@@ -940,6 +940,36 @@ a:active {
 	margin-bottom: 0em;
 }
 
+.widget-title-footer {
+	margin: 0;
+}
+#footer-one-section p {
+	margin: 0 0;
+}
+
+#menu-footer-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #000;
+	width:auto;
+}
+
+#menu-footer-menu li { margin: .7em 0; }
+
+#menu-footer-menu a {
+	width:100%;
+	border: 2px solid #000;
+	text-decoration: none;
+	padding:5px;
+	margin:0px;
+	color: #000;
+
+}
+#menu-footer-menu a:hover {
+	background-color: rgba(0, 0, 0, .25);
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
