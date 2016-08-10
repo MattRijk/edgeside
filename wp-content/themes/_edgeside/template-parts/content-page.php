@@ -20,7 +20,6 @@
 	</header><!-- .entry-header -->
 	
 
-
 	<div id="entry-content" class="entry-content">
 		<?php
 			the_content();
