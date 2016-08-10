@@ -131,6 +131,15 @@ function _edgeside_widgets_init() {
 	
 	/* _______ Header _______*/
 	// Front Page Search Box Widget Area
+	
+	register_sidebar( array(
+		'name'          => 'Header-Right-Nav',
+		'id'            => 'header-right-nav',
+		'before_widget' => '<section id="header-nav" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 	register_sidebar( array(
 		'name'          => 'Search',
 		'id'            => 'search-box',
@@ -139,6 +148,7 @@ function _edgeside_widgets_init() {
 		'before_title'  => '<h2 id="search-box-title" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
 	
 	
 	/* _______ Front Page _______*/

@@ -42,10 +42,8 @@
 					<div id="social-icons-header" class="widget-area" role="complementary">
 						<?php dynamic_sidebar('social-icons'); ?>
 					</div>
-					<div id="header-right-nav-links">
-						<a class="header-nav-a" href="">About</a>
-						<a class="header-nav-a" href"">Blog</a>
-						<a class="header-nav-a" href"">Contact</a>
+					<div id="header-right-nav" class="widget-area" role="complementary">
+						<?php dynamic_sidebar('header-right-nav'); ?>
 					</div>
 				
 				</div>

@@ -43,10 +43,6 @@ get_header(); ?>
 				
 			</section>
 			
-			
-
-			
-			
 			<section id="services-container">
 				
 				<!-- front-page-text-2 widget area -->

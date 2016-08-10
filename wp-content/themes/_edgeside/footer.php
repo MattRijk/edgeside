@@ -63,7 +63,7 @@
 	</div>
 		
 		<div class="site-info">
-			Copyright &copy; Edge Side Media 2016
+			<p>Copyright &copy; Edge Side Media 2016</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

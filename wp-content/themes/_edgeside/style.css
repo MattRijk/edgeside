@@ -46,11 +46,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 	
-### I-Site/Tablet Screens *M
+### Larger Screens *M
 
-# M-Navigation
-# M-Header
-# M-Content
+# Full-Navigation
+# Full-Header
+# Full-Content
+# Full-Footer
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -1282,18 +1283,40 @@ object {
  
 }
 
+/* Search Box in Navigation */
+.custom .menu-item.menu-item-search { float:right; width:260px; }
+.custom .menu-search-form { float:right; padding-top:3px; width:250px; }
+.custom form.menu-search-form { width:auto; }
+.custom form.menu-search-form #s { background:#fff; border:1px solid #000; font-size:11px; margin:0 2px 0 0; padding:2px; width:180px; float:left; }
+.custom .menu-search-form input#searchsubmit.my-wp-search { background:#000; color:#fff; cursor:pointer; float:right; padding:2px; text-transform:uppercase; }
+
+
+@media (min-width: 1025px) { 
+	#site-navigation {
+	    max-width: 1200px;
+	}
+	
+	#site-navigation ul {
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		background-color: #3d78c1;
+		align-items: center;
+		
+	}
+	
+	#site-navigation ul li a {
+		/*border: 1px solid #333;*/
+		padding: 0 1.2em;
+	}
+	
+}
 
 /*--------------------------------------------------------------
-# Full-Header
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Full-Content 1025
+# Full-Header 1025px to 1200px
 --------------------------------------------------------------*/
 @media (min-width: 1025px) { 
-
-	#page {
-		max-width: 1200px;
-	}
 	
 	.site-branding {
 		display: flex;
@@ -1317,8 +1340,7 @@ object {
 		float: right;
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-start;
-		align-items: stretch;
+
 	}
 	
 	#header-right-nav-links {
@@ -1333,25 +1355,41 @@ object {
 		font-weight: bold;
 	}
 	
-	#site-navigation {
-	    max-width: 1200px;
+	#menu-header-right-nav {
+		display: flex;
 	}
 	
-	#site-navigation ul {
-		display:flex;
-		flex-direction: row;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		background-color: #3d78c1;
-		align-items: center;
+	#header-nav ul { 
+		margin-left: 3em; 
+		padding: 0;
+	}
+	
 		
+	
+	
+	#menu-header-right-nav li { list-style: none; margin-top: .3em;}
+	
+	#menu-header-right-nav a {
+		margin: 0 .5em;
+		text-decoration: none;
+		font-weight: bold;
+		color: #000;
+		border: 2px solid #000;
+		padding: 5px;
 	}
 	
-	#site-navigation ul li a {
-		/*border: 1px solid #333;*/
-		padding: 0 1.2em;
-	}
+
 	
+	
+}
+
+
+/*--------------------------------------------------------------
+# Full-Content 1025px to 1200px
+--------------------------------------------------------------*/
+@media (min-width: 1025px) { 
+
+	#page { max-width: 1200px; }
 	
 	#main-container {
 		max-width: 1000px;
@@ -1367,44 +1405,36 @@ object {
 		align-items: baseline;
 	}
 	
-	.services {
-		max-width: 30%;
-
-		
-	}
+	.services { max-width: 30%; }
 	
 	.front-page-h2 {
 	    color: #fff;
 	    margin: 0 0 0 .5em;
   }
   
-  #colophon {
-  	max-width: 1000px;
-  	width: 100%;
- 	margin: 0 auto;
-  }
+ 
+
+}
+
+
+/*--------------------------------------------------------------
+# Full-Footer1025px to 1200px
+--------------------------------------------------------------*/
+@media (min-width: 1025px) { 
+
+ #colophon { max-width: 1000px; width: 100%; margin: 0 auto; }
     
   #footer-widget-container {
   	display: flex;
   	flex-direction: row;
-  	justify-content: space-around;
-  	align-items: flex-start;
+  	justify-content: space-between;
+  	margin-bottom: 10px;
+
   }
-   
- /* .site-info {*/
- /*   margin-left: 0;*/
- /*   font-size: .9em;*/
-	/*}*/
-  
-  
-  .widget {
-    margin: 0;
-    
-}
+
+  .widget { margin: 0; }
 	
-  #social-icons {
-	display: none;
-  }
+  #social-icons { display: none; }
   
  /* full width footer */
  
@@ -1412,6 +1442,11 @@ object {
  	margin-right: 1.2em;
  	white-space: nowrap;
  }
+ 
+ #footer-one-section .hwim-text p {
+ 	font-size: .8em;
+ }
+ 
   #menu-footer-menu li {
 		margin: 0;
   }
@@ -1435,21 +1470,17 @@ object {
     padding: 5px;
     margin: 0px;
     color: #000;
-}
+  }
+  
+  /* copyright p */
+  .site-info p {
+  	margin: 1.6em 0;
+  	text-align: center;
+  }
 
 }
-
-
-
-
-
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 
 
 
-.custom .menu-item.menu-item-search { float:right; width:260px; }
-.custom .menu-search-form { float:right; padding-top:3px; width:250px; }
-.custom form.menu-search-form { width:auto; }
-.custom form.menu-search-form #s { background:#fff; border:1px solid #000; font-size:11px; margin:0 2px 0 0; padding:2px; width:180px; float:left; }
-.custom .menu-search-form input#searchsubmit.my-wp-search { background:#000; color:#fff; cursor:pointer; float:right; padding:2px; text-transform:uppercase; }
