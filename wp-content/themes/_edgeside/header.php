@@ -26,10 +26,32 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<a href="https://edgeside001-mattrijk.c9users.io" >
-			<img id="logo" class="logo" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/edge-side-logo.svg"/>
-			</a>
+			<div>
+				<a href="https://edgeside001-mattrijk.c9users.io" >
+				<img id="logo-sm" class="logo" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/edge-side-logo.svg"/>
+				</a>
+			</div>	
+
+			<div id="header-right-area">
+				
+				<div id="phone-number">
+					<h2>1 800 545 3433</h2>
+				</div>
+				<div id="header-right-nav-area">
+					
+					<div id="social-icons-header" class="widget-area" role="complementary">
+						<?php dynamic_sidebar('social-icons'); ?>
+					</div>
+					<div id="header-right-nav-links">
+						<a class="header-nav-a" href="">About</a>
+						<a class="header-nav-a" href"">Blog</a>
+						<a class="header-nav-a" href"">Contact</a>
+					</div>
+				
+				</div>
+			</div>
 		</div><!-- .site-branding -->
+
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			

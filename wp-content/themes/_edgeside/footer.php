@@ -15,14 +15,15 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 
-		
+	
 		<!-- social icon section -->
-		<div class="widget-area" role="complementary">
+		<div id="social-icons" class="widget-area" role="complementary">
 			<?php dynamic_sidebar('social-icons'); ?>
 		</div>
 		<!-- #social icon section  -->
-		
-		
+	
+
+	<div id="footer-widget-container">
 		<!-- footer one section -->
 		<div class="widget-area" role="complementary">
 			<?php dynamic_sidebar('footer-one'); ?>
@@ -47,7 +48,7 @@
 		
 		<!-- footer five section -->
 		<!-- #footer five section -->
-	
+	</div>
 		
 		<div class="site-info">
 			Copyright &copy; Edge Side Media 2016

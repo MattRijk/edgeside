@@ -57,4 +57,6 @@
 		<?php _edgeside_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+
 <hr> <!-- post separation line -->

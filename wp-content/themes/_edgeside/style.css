@@ -47,6 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 	
 ### I-Site/Tablet Screens *M
+
 # M-Navigation
 # M-Header
 # M-Content
@@ -525,7 +526,7 @@ textarea {
 --------------------------------------------------------------*/
 
 #site-navigation {
-	max-width: 420px;
+	max-width: 470px;
 }
 
 #primary-menu {
@@ -585,6 +586,7 @@ a:active {
 	clear: both;
 	display: block;
 	width: 100%;
+	text-align: center;
 }
 
 .main-navigation ul {
@@ -798,13 +800,46 @@ a:active {
     margin: 0 0 1.5em 0;
     background-color: #3d78c1;
 }
-#page-widget h2.widget-title {
+
+#page-main-img-widget {
+	width: 100%;
+    margin: 0 0 0 0;
+    background-color: #3d78c1;
+}
+
+.widget-title {
 	display: none;
 }
+
+#main-image {
+	position: relative;
+}
+
+#main-img-textbox {
+	background-color: #333;
+	color:#fff;
+	padding: 0 1em;
+	position: absolute;
+	height: 4.5em;
+	top: 80%;
+	left: 42%;
+}
+
+#main-img-caption {
+	position: relative;
+}
+
+
+
+
 .hwim-text {
     height: auto;
     margin-top: 0px;
     padding-top: 0;
+}
+
+.hwim-text p {
+	margin-top: 5.5em;
 }
 
 #page-p {
@@ -858,11 +893,17 @@ a:active {
 	display: none;
 }
 
+
+#header-right-area {
+	display: none;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 
 #page {
+	margin: 0 auto;
 	max-width: 420px;
 	border: 2px solid #000;
 	
@@ -889,6 +930,11 @@ a:active {
 .entry-title a {
 	color: #000;
 	text-decoration: none;
+}
+
+.entry-title a:hover {
+	color: #000;
+	text-decoration: underline;
 }
 
 .posted-on {
@@ -1135,3 +1181,191 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+### 1200px Screens *M
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Full-Navigation
+--------------------------------------------------------------*/
+
+.menu-search-form .text_input {
+	height: 20px;
+	margin-right:2px;
+	
+}
+
+.menu-search-form .my-wp-search {
+	line-height: .8;
+ 
+}
+
+
+/*--------------------------------------------------------------
+# Full-Header
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Full-Content 1025
+--------------------------------------------------------------*/
+@media (min-width: 1025px) { 
+
+	#page {
+		max-width: 1200px;
+	}
+	
+	.site-branding {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	
+	#header-right-area {
+		display: flex;
+		flex-direction: column;
+		float: right;
+	}
+	#phone-number h2 {
+		float: right;
+		margin-right: 0.5em;
+	}
+	
+	#header-right-nav-area {
+		height: 40px;
+		float: right;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+	
+	#header-right-nav-links {
+		margin-left: 30px;
+    	margin-top: 12px;
+	}
+	
+	.header-nav-a { 
+		margin: 0 .4em; 
+		color: #000;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	#site-navigation {
+	    max-width: 1200px;
+	}
+	
+	#site-navigation ul {
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		background-color: #3d78c1;
+		align-items: center;
+		
+	}
+	
+	#site-navigation ul li a {
+		/*border: 1px solid #333;*/
+		padding: 0 1.2em;
+	}
+	
+	
+	#main-container {
+		max-width: 1000px;
+    	margin: 0 auto;
+	}
+	#services-container {
+		max-width: 1000px;
+    	margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		flex-wrap:wrap;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+	
+	.services {
+		max-width: 30%;
+
+		
+	}
+	
+	.front-page-h2 {
+	    color: #fff;
+	    margin: 0 0 0 .5em;
+  }
+  
+  #colophon {
+  	max-width: 1000px;
+  	width: 100%;
+ 	margin: 0 auto;
+  }
+    
+  #footer-widget-container {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+  }
+   
+  .site-info {
+    margin-left: 0;
+    font-size: .9em;
+	}
+  
+  
+  .widget {
+    margin: 0 0 1.5em;
+	}
+	
+  #social-icons {
+	display: none;
+  }
+  
+ 
+  #menu-footer-menu li {
+		margin: 0;
+  }
+
+  #menu-footer-menu a {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    margin: 0px;
+    color: #000;
+	}
+
+  #menu-footer-menu-2 li {
+		margin: 0;
+  }	
+  #menu-footer-menu-2 a {
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+    color: #000;
+}
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
+
+
+
+.custom .menu-item.menu-item-search { float:right; width:260px; }
+.custom .menu-search-form { float:right; padding-top:3px; width:250px; }
+.custom form.menu-search-form { width:auto; }
+.custom form.menu-search-form #s { background:#fff; border:1px solid #000; font-size:11px; margin:0 2px 0 0; padding:2px; width:180px; float:left; }
+.custom .menu-search-form input#searchsubmit.my-wp-search { background:#000; color:#fff; cursor:pointer; float:right; padding:2px; text-transform:uppercase; }
