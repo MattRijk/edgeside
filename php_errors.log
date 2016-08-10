@@ -708,3 +708,211 @@
 [10-Aug-2016 00:35:28 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
 [10-Aug-2016 00:35:28 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
 [10-Aug-2016 00:35:28 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:21:25 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:21:25 UTC] PHP Stack trace:
+[10-Aug-2016 14:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:21:25 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:21:25 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:21:25 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:21:25 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:21:25 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:21:25 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:21:25 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:21:25 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:22:08 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:22:08 UTC] PHP Stack trace:
+[10-Aug-2016 14:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:22:08 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:22:08 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:22:08 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:22:08 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:22:08 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:22:08 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:22:08 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:22:08 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:24:11 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:24:11 UTC] PHP Stack trace:
+[10-Aug-2016 14:24:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:24:11 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:24:11 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:24:11 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:24:11 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:24:11 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:24:11 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:24:11 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:24:11 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:24:59 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:24:59 UTC] PHP Stack trace:
+[10-Aug-2016 14:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:24:59 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:24:59 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:24:59 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:24:59 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:24:59 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:24:59 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:24:59 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:24:59 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:26:24 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:26:24 UTC] PHP Stack trace:
+[10-Aug-2016 14:26:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[10-Aug-2016 14:26:24 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[10-Aug-2016 14:26:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-Aug-2016 14:26:24 UTC] PHP   4. wp_ajax_save_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-Aug-2016 14:26:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:1935}() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:1935
+[10-Aug-2016 14:26:24 UTC] PHP   6. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:1935
+[10-Aug-2016 14:26:24 UTC] PHP   7. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:26:24 UTC] PHP   8. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:29:14 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:29:14 UTC] PHP Stack trace:
+[10-Aug-2016 14:29:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:29:14 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:29:14 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:29:14 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:29:14 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:29:14 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:29:14 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:29:14 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:29:14 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:33:16 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:33:16 UTC] PHP Stack trace:
+[10-Aug-2016 14:33:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:33:16 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:33:16 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:33:16 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:33:16 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:33:16 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:33:16 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:33:16 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:33:16 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:34:56 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:34:56 UTC] PHP Stack trace:
+[10-Aug-2016 14:34:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:34:56 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:34:56 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:34:56 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:34:56 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:34:56 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:34:56 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:34:56 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:34:56 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:35:21 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:35:21 UTC] PHP Stack trace:
+[10-Aug-2016 14:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:35:21 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:35:21 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:35:21 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:35:21 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:35:21 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:35:21 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:35:21 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:35:21 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:35:55 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:35:55 UTC] PHP Stack trace:
+[10-Aug-2016 14:35:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:35:55 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:35:55 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:35:55 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:35:55 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:35:55 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:35:55 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:35:55 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:35:55 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:36:35 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:36:35 UTC] PHP Stack trace:
+[10-Aug-2016 14:36:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:36:35 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:36:35 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:36:35 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:36:35 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:36:35 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:36:35 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:36:35 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:36:35 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:40:19 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:40:19 UTC] PHP Stack trace:
+[10-Aug-2016 14:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:40:19 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:40:19 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:40:19 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:40:19 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:40:19 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:40:19 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:40:19 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:40:19 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:42:09 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:42:09 UTC] PHP Stack trace:
+[10-Aug-2016 14:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:42:09 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:42:09 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:42:09 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:42:09 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:42:09 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:42:09 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:42:09 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:42:09 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:45:11 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:45:11 UTC] PHP Stack trace:
+[10-Aug-2016 14:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:45:11 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:45:11 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:45:11 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:45:11 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:45:11 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:45:11 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:45:11 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:45:11 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:55:32 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:55:32 UTC] PHP Stack trace:
+[10-Aug-2016 14:55:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:55:32 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:55:32 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:55:32 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:55:32 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:55:32 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:55:32 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:55:32 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:55:32 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:56:32 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:56:32 UTC] PHP Stack trace:
+[10-Aug-2016 14:56:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:56:32 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:56:32 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:56:32 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:56:32 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:56:32 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:56:32 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:56:32 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:56:32 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 14:58:53 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 14:58:53 UTC] PHP Stack trace:
+[10-Aug-2016 14:58:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 14:58:53 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 14:58:53 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 14:58:53 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:58:53 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 14:58:53 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:58:53 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 14:58:53 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 14:58:53 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 15:22:20 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 15:22:20 UTC] PHP Stack trace:
+[10-Aug-2016 15:22:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 15:22:20 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 15:22:20 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 15:22:20 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 15:22:20 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 15:22:20 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 15:22:20 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 15:22:20 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 15:22:20 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135
+[10-Aug-2016 16:16:21 UTC] PHP Warning:  DOMDocument::loadHTML(): htmlParseEntityRef: no name in Entity, line: 1 in /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php on line 135
+[10-Aug-2016 16:16:21 UTC] PHP Stack trace:
+[10-Aug-2016 16:16:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[10-Aug-2016 16:16:21 UTC] PHP   2. wp_list_widget_controls() /home/ubuntu/workspace/wp-admin/widgets.php:483
+[10-Aug-2016 16:16:21 UTC] PHP   3. dynamic_sidebar() /home/ubuntu/workspace/wp-admin/includes/widgets.php:97
+[10-Aug-2016 16:16:21 UTC] PHP   4. call_user_func_array:{/home/ubuntu/workspace/wp-includes/widgets.php:738}() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 16:16:21 UTC] PHP   5. wp_widget_control() /home/ubuntu/workspace/wp-includes/widgets.php:738
+[10-Aug-2016 16:16:21 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-admin/includes/widgets.php:237}() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 16:16:21 UTC] PHP   7. WP_Widget->form_callback() /home/ubuntu/workspace/wp-admin/includes/widgets.php:237
+[10-Aug-2016 16:16:21 UTC] PHP   8. HW_Image_Widget->form() /home/ubuntu/workspace/wp-includes/class-wp-widget.php:513
+[10-Aug-2016 16:16:21 UTC] PHP   9. DOMDocument->loadHTML() /home/ubuntu/workspace/wp-content/plugins/hw-image-widget/hw-image-widget.php:135

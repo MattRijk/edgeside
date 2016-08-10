@@ -44,10 +44,22 @@
 		<!-- #footer three section -->
 		
 		<!-- footer four section -->
+		<div class="widget-area" role="complementary">
+			<?php dynamic_sidebar('footer-four'); ?>
+		</div>
 		<!-- #footer four section -->
 		
 		<!-- footer five section -->
+		<div class="widget-area" role="complementary">
+			<?php dynamic_sidebar('footer-five'); ?>
+		</div
 		<!-- #footer five section -->
+		
+		<!-- footer six section -->
+		<div class="widget-area" role="complementary">
+			<?php dynamic_sidebar('footer-six'); ?>
+		</div
+		<!-- #footer six section -->
 	</div>
 		
 		<div class="site-info">

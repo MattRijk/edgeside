@@ -30,7 +30,7 @@ get_header(); ?>
 					<?php dynamic_sidebar('front-page-main'); ?>
 				</div>
 				<div id="main-img-textbox">
-				<h4 id="main-img-caption">We make your digital marketing dollars work double time.</h4>
+					<h4 id="main-img-caption">We make your digital marketing dollars work double time.</h4>
 				</div>
 			</div>
 			<!-- #main widget area -->
