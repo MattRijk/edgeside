@@ -10,14 +10,21 @@
 ?>
 
 <!-- This page displays a single post  -->
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<!--<article id="post-<?//php the_ID(); ?>" <?//php post_class(); ?>>-->
+<article <?php post_class(); ?>>
+	
+<div id="blog-post">
+	
+<!-- Featured Image -->
+<div class="post-image">
+	<?php echo the_post_thumbnail('post-header-image'); ?>
+</div>
+<!-- #Featured Image -->
+
+
+<div class="post-div"><!-- header title and content -->
 	<header class="entry-header">
 
-   <!-- Featured Image -->
- 	<div class="post-header-image">
-		<?php echo the_post_thumbnail('post-header-image'); ?>
-	</div>
-	<!-- #Featured Image -->
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -52,6 +59,8 @@
 		
 		
 	</div><!-- .entry-content -->
+</div><!-- #header title and content -->
+</div>
 
 	<footer class="entry-footer">
 		<?php _edgeside_entry_footer(); ?>

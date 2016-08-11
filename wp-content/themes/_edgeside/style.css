@@ -1084,6 +1084,32 @@ a:active {
 	background-color:rgba(107, 154, 240, 0.6);
 }
 
+/* third footer widget menu - button with hover */
+#menu-our-work {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #000;
+	width: auto;
+}
+
+#menu-our-work li { margin: .8em 0; }
+
+#menu-our-work a {
+	width:100%;
+	border: 2px solid #000;
+	text-decoration: none;
+	padding:5px;
+	margin:0px;
+	color: #000;
+	font-size: .8em;
+
+}
+#menu-our-work a:hover {
+	background-color:rgba(107, 154, 240, 0.6);
+}
+
+
 /* fourth footer widget - search engine optimization */
 #menu-search-marketing {
 	margin: 0;
@@ -1409,6 +1435,11 @@ object {
 
 	#page { max-width: 1200px; }
 	
+	#content {
+		display: flex;
+		flex-direction: row;
+	}
+	
 	#main-container {
 		max-width: 1000px;
     	margin: 0 auto;
@@ -1429,6 +1460,43 @@ object {
 	    color: #fff;
 	    margin: 0 0 0 .5em;
   }
+  
+  #secondary {
+  	margin: 1em 2em;
+  }
+   #blog-sidebar-widget section {
+   		margin:0;
+   }
+   
+    #blog-sidebar-widget h2 {
+   		margin: .5em 0 0 0;
+   		text-transform: uppercase;
+   		font-size: 1.15em;
+   }
+  
+  #blog-sidebar-widget ul {
+  	margin: 0;
+    padding: 0 0 .5em 1em;
+    
+  }
+  #blog-post {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	align-items: flex-start;
+  }
+  
+  .post-image img {
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: .5em;
+
+  }
+  .post-div {
+  	margin-left: 1em;
+  }
+  
+  .byline { display: inline; }
   
  
 
@@ -1501,6 +1569,16 @@ object {
   
   
 /* footer three Our Work */
+#menu-our-work li {  margin: 0; }
+
+#menu-our-work a {
+	width: 100%;
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+    color: #000;
+}
 
 /* footer four - Search Marketing */
 #menu-search-marketing li {  margin: 0; }

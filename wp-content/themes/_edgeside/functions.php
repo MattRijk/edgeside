@@ -94,9 +94,9 @@ function _edgeside_widgets_init() {
 		'name'          => esc_html__( 'Sidebar', '_edgeside' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', '_edgeside' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'before_widget' => '<section id="blog-sidebar-widget" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
+		'before_title'  => '<h2 class="blog-widget-title">',
 		'after_title'   => '</h2>',
 	) );
 	
@@ -235,7 +235,7 @@ function _edgeside_widgets_init() {
 	register_sidebar( array(
 		'name'          => 'Footer Two',
 		'id'            => 'footer-two',
-		'before_widget' => '<section id="" class="widget %2$s">',
+		'before_widget' => '<section id="widget widget_nav_menu" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title-footer">',
 		'after_title'   => '</h2>',
