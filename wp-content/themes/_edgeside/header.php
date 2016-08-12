@@ -62,6 +62,10 @@
 		<?php dynamic_sidebar('search-box'); ?>
 	</div>
 		<!-- #search box -->
+		
+	<?php if ( function_exists('yoast_breadcrumb') ) {
+	yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+	} ?>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

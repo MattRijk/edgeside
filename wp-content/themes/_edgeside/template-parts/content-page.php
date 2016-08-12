@@ -12,7 +12,6 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo 'hello world!-detail page' ?>
 	<header class="entry-header">
 		<?php the_title( '<h1 id="page-title" class="entry-title">', '</h1>' ); ?>
 		

@@ -1,20 +1,10 @@
-<?php
-/**
- * Template part for displaying posts.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package _edgeside
- */
-
-?>
-
+<h1>Blog</h1>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 	<!-- Featured Image -->
-	<div class="post-image">
-		<?php echo the_post_thumbnail('post-header-image'); ?>
-	</div>
+	<!--<div class="post-image">-->
+	<!--	<//?php echo the_post_thumbnail('post-header-image'); ?>-->
+	<!--</div>-->
 	<!-- #Featured Image -->
 	
 	<header class="entry-header">
