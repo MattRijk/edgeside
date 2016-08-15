@@ -39,6 +39,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Posts and pages
 	## Front page
 	## Comments
+	## Sidebar
 	## Footer
 	## Footer Widgets
 # Infinite scroll
@@ -955,6 +956,12 @@ a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+
+
+#page-title {
+	display: none
+}
+
 .sticky {
 	display: block;
 }
@@ -982,6 +989,64 @@ a:active {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+
+
+
+.post-image {
+  	width: 100%;
+  	margin: 1em 0;
+
+	display: block;
+	text-align: center;
+    /*max-width: 200px;*/
+    /*max-height: 150px;*/
+    margin-top: .5em;
+
+ }
+ 
+ 
+#simple-author-box {
+	margin-bottom: 1.5em;
+}
+
+.simple-author-title {
+	margin:0; 
+}
+ 
+.saboxplugin-wrap .saboxplugin-gravatar {
+    float: left;
+    padding: 1.5em 1em 0em 0;
+}
+
+.saboxplugin-wrap .saboxplugin-desc {
+    display: block;
+    margin: .3em 1.5em .3em 0;
+}
+
+.saboxplugin-wrap {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-color: none;
+    width: 100%;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.byline {
+    display: inline;
+}
+
+#breadcrumbs {
+	margin: 1em 1em;
+	padding: .2em;
+    background-color: #dcdcdc;
 }
 /*--------------------------------------------------------------
 ## Front Page
@@ -1011,6 +1076,44 @@ a:active {
 .bypostauthor {
 	display: block;
 }
+
+
+/*--------------------------------------------------------------
+## Sidebar
+--------------------------------------------------------------*/
+#secondary h2 {
+	margin: 0em auto;
+}
+
+
+#secondary ul {
+    
+    margin: 0em 1em;
+    padding: 0em;
+}
+
+#secondary li a {
+	text-decoration: none;
+}
+
+
+
+#blog-sidebar-widget {
+   	/*background-color: #333;*/
+   	margin-bottom: 1em;
+   	
+}
+
+#blog-sidebar-widget h2 { 
+	text-transform: uppercase; 
+	font-size: 1em;
+}
+
+.entry-title-header {
+	background-color: #333;
+}
+
+
 
 /*--------------------------------------------------------------
 ## Footer
@@ -1463,12 +1566,14 @@ object {
   
   #secondary {
   	margin: 1em 2em;
+  	min-width: 300px;
   }
-   #blog-sidebar-widget section {
+  
+  #blog-sidebar-widget section {
    		margin:0;
    }
    
-    #blog-sidebar-widget h2 {
+  #blog-sidebar-widget h2 {
    		margin: .5em 0 0 0;
    		text-transform: uppercase;
    		font-size: 1.15em;
@@ -1479,6 +1584,11 @@ object {
     padding: 0 0 .5em 1em;
     
   }
+  
+  .article-div {
+	display: flex;
+  }
+  
   #blog-post {
   	display: flex;
   	flex-direction: row;
@@ -1486,17 +1596,19 @@ object {
   	align-items: flex-start;
   }
   
-  .post-image img {
-    max-width: 200px;
-    max-height: 150px;
-    margin-top: .5em;
 
+  
+  .post-image {
+  	max-width: 220px;
+  	width: 100%;
+  	margin-top: .5em;
+  	margin-right: 1em;
   }
   .post-div {
   	margin-left: 1em;
   }
   
-  .byline { display: inline; }
+
   
  
 
@@ -1508,7 +1620,7 @@ object {
 --------------------------------------------------------------*/
 @media (min-width: 1025px) { 
 
- #colophon { max-width: 1000px; width: 100%; margin: 0 auto; }
+ #colophon { max-width: 1200px; width: 100%; margin: 0 auto; }
  
  .widget-title-footer {
     margin-right: 1.2em;
@@ -1521,7 +1633,7 @@ object {
   	display: flex;
   	flex-direction: row;
   	justify-content: space-between;
-  	margin-bottom: 10px;
+  	margin: 1.5em 1em;
 
   }
 

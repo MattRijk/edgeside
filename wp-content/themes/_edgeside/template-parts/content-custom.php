@@ -1,11 +1,5 @@
-<h1>Blog</h1>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	
-	<!-- Featured Image -->
-	<!--<div class="post-image">-->
-	<!--	<//?php echo the_post_thumbnail('post-header-image'); ?>-->
-	<!--</div>-->
-	<!-- #Featured Image -->
 	
 	<header class="entry-header">
 		<?php
@@ -22,6 +16,7 @@
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
+	
 
 	<div class="entry-content">
 		<?php
@@ -36,9 +31,27 @@
 				'after'  => '</div>',
 			) );
 		?>
+		
+
 	</div><!-- .entry-content -->
+	
+	<!-- Featured Image -->
+		<div class="post-image">
+			<?php echo the_post_thumbnail('post-header-image'); ?>
+		</div>
+	<!-- #Featured Image -->
+	
+	
 
 	<footer class="entry-footer">
-		<?php _edgeside_entry_footer(); ?>
+		
+		<?php _edgeside_custom_entry_footer(); ?><br>
+		
+		<//?php _edgeside_entry_footer(); ?><br>
+		<//?php _edgeside_posted_on(); ?>
+	
+		
 	</footer><!-- .entry-footer -->
+	
+
 </article><!-- #post-## -->

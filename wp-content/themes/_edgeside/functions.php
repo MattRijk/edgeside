@@ -210,6 +210,28 @@ function _edgeside_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 	
+	/* _______ Post Widget _______*/
+	//  Author Widget Area
+	register_sidebar( array(
+		'name'          => 'Author Widget',
+		'id'            => 'author-widget',
+		'before_widget' => '<section id="author-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="author-widget" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	//  Related Post Widget Area
+	register_sidebar( array(
+		'name'          => 'Related Post Widget',
+		'id'            => 'related-post-widget',
+		'before_widget' => '<section id="related-post-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="author-widget" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	
 	/* _______ Footer _______*/
 	
 	

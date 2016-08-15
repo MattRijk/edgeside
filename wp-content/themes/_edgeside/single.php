@@ -28,10 +28,26 @@ get_header(); ?>
 
 		endwhile; // End of the loop.
 		?>
+		<h2 class="simple-author-title">About The Author</h2>
+		<div id="simple-author-box">
+			<?php if ( function_exists( 'wpsabox_author_box' ) ) echo wpsabox_author_box(); ?>
+		</div><hr>
+		
+		<h2 class="blog-widget-title">Related Articles</h2>
+		<div id="simple-related-post">
+			<div class="widget-area" role="complementary">
+				<?php dynamic_sidebar('related-post-widget'); ?>
+			</div>
+		</div>
 
 		</main><!-- #main -->
-	</div><!-- #primary -->
 
-<?php
-// get_sidebar();
-get_footer();
+
+	
+	</div><!-- #primary -->
+	
+
+<?php 
+get_sidebar(); 
+get_footer(); 
+?>
