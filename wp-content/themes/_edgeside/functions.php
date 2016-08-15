@@ -364,3 +364,23 @@ return $items;
 add_filter('wp_nav_menu_items','add_search_to_wp_menu',10,2);
 
 
+// Changing excerpt length
+function new_excerpt_length($length) {
+return 30;
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+
+// Changing excerpt more
+// function new_excerpt_more($more) {
+// return ' read more ...';
+// }
+// add_filter('excerpt_more', 'new_excerpt_more');
+
+// Replaces the excerpt "Read More" text by a link
+function new_excerpt_more($more) {
+       global $post;
+	return '<a class="moretag" href="'. get_permalink($post->ID) . '">... Continue reading &#8594;</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+

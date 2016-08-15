@@ -36,7 +36,7 @@
 	</div><!-- .entry-content -->
 	
 	<!-- Featured Image -->
-		<div class="post-image">
+		<div class="post-image-full-page">
 			<?php echo the_post_thumbnail('post-header-image'); ?>
 		</div>
 	<!-- #Featured Image -->
@@ -47,8 +47,8 @@
 		
 		<?php _edgeside_custom_entry_footer(); ?><br>
 		
-		<//?php _edgeside_entry_footer(); ?><br>
-		<//?php _edgeside_posted_on(); ?>
+		<?#php _edgeside_entry_footer(); ?>
+		<?#php _edgeside_posted_on(); ?>
 	
 		
 	</footer><!-- .entry-footer -->
