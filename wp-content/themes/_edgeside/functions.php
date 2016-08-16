@@ -89,45 +89,9 @@ add_action( 'after_setup_theme', '_edgeside_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function _edgeside_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', '_edgeside' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', '_edgeside' ),
-		'before_widget' => '<section id="blog-sidebar-widget" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="blog-widget-title">',
-		'after_title'   => '</h2>',
-	) );
-	
-	/* _______ Pages _______*/
-	// Search Engine Optimization Page Widget Area
-	register_sidebar( array(
-		'name'          => 'Search Engine Optimization',
-		'id'            => 'page-1',
-		'before_widget' => '<section id="page-widget" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-	// Web Development Page Widget Area
-	register_sidebar( array(
-		'name'          => 'Web Development',
-		'id'            => 'page-2',
-		'before_widget' => '<section id="page-widget" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-		// Social Media Page Widget Area
-	register_sidebar( array(
-		'name'          => 'Social Media',
-		'id'            => 'page-3',
-		'before_widget' => '<section id="social-media-widget" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
+ 
+
+
 	
 	/* _______ Header _______*/
 	// Front Page Search Box Widget Area
@@ -207,6 +171,69 @@ function _edgeside_widgets_init() {
 		'before_widget' => '<section id="page-widget" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	/* _______ Sidebar _______*/
+function _edgeside_widgets_init() {
+	register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar', '_edgeside' ),
+		'id'            => 'sidebar-1',
+		'description'   => esc_html__( 'Add widgets here.', '_edgeside' ),
+		'before_widget' => '<section id="blog-sidebar-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="blog-widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	
+		/* _______ Pages _______*/
+	// Search Engine Optimization Page Widget Area
+	register_sidebar( array(
+		'name'          => 'Search Engine Optimization',
+		'id'            => 'page-1',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	// Web Development Page Widget Area
+	register_sidebar( array(
+		'name'          => 'Web Development',
+		'id'            => 'page-2',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	//Web Care Page Widget Area
+	register_sidebar( array(
+		'name'          => 'Web Care',
+		'id'            => 'web-care',
+		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	// Social Media Page Widget Area
+	register_sidebar( array(
+		'name'          => 'Social Media',
+		'id'            => 'page-3',
+		'before_widget' => '<section id="social-media-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	/* _______ Web Care Widgets _______*/
+		//Web Care Page Widget Area
+		
+	register_sidebar( array(
+		'name'          => 'Web Care Questions',
+		'id'            => 'web-care-questions',
+		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
 	
@@ -311,17 +338,29 @@ add_action( 'widgets_init', '_edgeside_widgets_init' );
  * Enqueue scripts and styles.
  */
 function _edgeside_scripts() {
+	
+	
 	wp_enqueue_style( '_edgeside-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( '_edgeside-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( '_edgeside-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	
+	wp_enqueue_script( '_edgeside-questions', get_template_directory_uri() . '/js/questions.js', array('jquery'), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', '_edgeside_scripts' );
+
+// function load_ui_scripts() {
+// 	wp_register_script('jquery-ui', 'https://code.jquery.com/ui/1.12.0/jquery-ui.js');
+// // 	wp_register_script('questions', get_template_directory_uri() . '/js/questions.js', array('jquery'));
+	
+// 	wp_enqueue_script('jquery-ui');
+// }
+// add_action('wp_enqueue_script', 'load_ui_scripts');
 
 /**
  * Implement the Custom Header feature.
@@ -382,5 +421,7 @@ function new_excerpt_more($more) {
 	return '<a class="moretag" href="'. get_permalink($post->ID) . '">... Continue reading &#8594;</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
+
+
 
 

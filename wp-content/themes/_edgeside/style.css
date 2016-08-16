@@ -1071,6 +1071,10 @@ a:active {
 .entry-footer {
 	margin-top: 1em;
 }
+
+.questions-container {
+	text-align: center;
+}
 /*--------------------------------------------------------------
 ## Front Page
 --------------------------------------------------------------*/
@@ -1487,6 +1491,7 @@ object {
 --------------------------------------------------------------*/
 @media (min-width: 1025px) { 
 	
+	
 	.site-branding {
 		display: flex;
 		flex-direction: row;
@@ -1564,6 +1569,9 @@ object {
 	#content {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
+		max-width: 1000px;
+    	margin: 0 auto;
 	}
 	
 	#main-container {
@@ -1579,6 +1587,8 @@ object {
 		justify-content: space-between;
 		align-items: baseline;
 	}
+	
+	#primary.content-area { margin: 0 auto;  max-width: 850px; }
 	
 	.services { max-width: 30%; }
 	
@@ -1760,6 +1770,29 @@ object {
 }
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
+#toggle-view{list-style:none;font-family:arial;font-size:11px;margin:0;padding:0;width:300px;}#toggle-view li{margin:10px;border-bottom:1px solid #ccc;position:relative;cursor:pointer;}#toggle-view h3{margin:0;font-size:14px;}#toggle-view span{position:absolute;right:5px;top:0;color:#ccc;font-size:13px;}#toggle-view p{margin:5px 0;display:none;}
 
-
-
+ .toggler {
+    width: 500px;
+    height: 200px;
+  }
+  #button {
+    padding: .5em 1em;
+    text-decoration: none;
+  }
+  #effect {
+    position: relative;
+    width: 240px;
+    height: 170px;
+    padding: 0.4em;
+  }
+  #effect h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+  }
+  
+ .toggler { width: 500px; height: 200px; }
+ #button { padding: .5em 1em; text-decoration: none; }
+ #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+ #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
