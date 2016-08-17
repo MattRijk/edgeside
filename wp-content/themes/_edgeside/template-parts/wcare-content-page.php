@@ -35,19 +35,7 @@
 <?php echo 'hello php.'; ?>
 <p class="tagline">From Cloud9 IDE!</p>
 
- <div class="toggler">
-      <div id="effect" class="ui-widget-content ui-corner-all">
-         <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
-         </p>
-      </div>
- </div>
- <a href="#" id="button" class="ui-state-default ui-corner-all">Toggle</a>
 
-
-      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
