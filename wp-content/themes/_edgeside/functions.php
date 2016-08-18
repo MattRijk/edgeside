@@ -268,7 +268,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'social-icons',
 		'before_widget' => '<section id="" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title-footer">',
+		'before_title'  => '<h2 class="widget-main-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	// Footer One Widget Area
@@ -277,7 +277,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'footer-one',
 		'before_widget' => '<section id="footer-one-section" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title-footer">',
+		'before_title'  => '<h2 class="widget-main-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	// Footer Two Widget Area
@@ -286,7 +286,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'footer-two',
 		'before_widget' => '<section id="widget widget_nav_menu" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title-footer">',
+		'before_title'  => '<h2 class="widget-main-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	// Footer Three Widget Area
@@ -295,7 +295,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'footer-three',
 		'before_widget' => '<section id="widget widget_nav_menu" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="" class="widget-title-footer">',
+		'before_title'  => '<h2 id="" class="widget-main-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	
@@ -305,7 +305,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'footer-four',
 		'before_widget' => '<section id="widget widget_nav_menu" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="" class="widget-title-footer">',
+		'before_title'  => '<h2 id="" class="widget-main-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	// Footer Five Widget Area
@@ -314,7 +314,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'footer-five',
 		'before_widget' => '<section id="widget widget_nav_menu" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="" class="widget-title-footer">',
+		'before_title'  => '<h2 id="" class="widget-main-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	// Footer Six Widget Area
@@ -323,7 +323,7 @@ function _edgeside_widgets_init() {
 		'id'            => 'footer-six',
 		'before_widget' => '<section id="widget widget_nav_menu" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 id="" class="widget-title-footer">',
+		'before_title'  => '<h2 id="" class="widget-main-title-footer">',
 		'after_title'   => '</h2>',
 	) );
 	
@@ -347,7 +347,11 @@ function _edgeside_scripts() {
 
 	wp_enqueue_script( '_edgeside-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 	
-	wp_enqueue_script( '_edgeside-questions', get_template_directory_uri() . '/js/questions.js', array('jquery','	jquery-ui-slider','jquery-effects-blind', 'jquery-ui-core'), '20151215', true );
+	wp_enqueue_script( '_edgeside-questions', get_template_directory_uri() . '/js/questions.js', array('jquery','jquery-ui-slider','jquery-effects-blind', 'jquery-ui-core'), '20151215', true );
+	
+
+	
+	
 	
 
 	

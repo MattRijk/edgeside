@@ -1162,11 +1162,13 @@ a:active {
 	margin-bottom: 0em;
 }
 /* fisrt footer widget menu -button with hover */
-.widget-title-footer {
+.widget-main-title-footer {
 	margin-right: 1.2em;
 	font-size: .85em;
     white-space: nowrap;
     margin-bottom: 0;
+    color: #000;
+    font-weight: 700;
 }
 #footer-one-section p {
 	margin: 0 0;
@@ -1672,11 +1674,14 @@ object {
 
  #colophon { max-width: 1200px; width: 100%; margin: 0 auto; }
  
- .widget-title-footer {
+ .widget-main-title-footer {
+ 	margin-bottom: 0;
     margin-right: 1.2em;
+    margin-left: .3em;
     font-size: 0.85em;
     white-space: nowrap;
-    margin-bottom: 0;
+    color: #000;
+    font-weight: 700;
 }
     
   #footer-widget-container {
@@ -1693,7 +1698,7 @@ object {
   
  /* full width footer */
  
- .widget-title-footer h2 {
+ .widget-main-title-footer h2 {
  	margin-right: 1.2em;
  	white-space: nowrap;
  }
@@ -1788,12 +1793,24 @@ object {
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 
-#toggle-view
+.clickable
 {
-    list-style:none;
-    font-family:arial;
-    font-size:11px;
-    margin:0;
-    padding:0;
-    width:300px;
+    cursor: pointer;
 }
+
+.clickable .glyphicon
+{
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px
+}
+
+.panel-heading span
+{
+    margin-top: -23px;
+    font-size: 15px;
+    margin-right: -9px;
+}
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }

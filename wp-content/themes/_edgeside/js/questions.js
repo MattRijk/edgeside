@@ -1,5 +1,5 @@
 window.onload = function() {
-    if (window.jQuery.ui) {  
+    if (window.jQuery) {  
         // jQuery is loaded  
         alert("Yeah!");
     } else {
@@ -8,34 +8,31 @@ window.onload = function() {
     }
 }
 
-
-var parent = $('#toggle-view'), // storing main ul for use below
-    delay = 200; // storing delay for easier configuration
-
-// bind the click to all headers
-jQuery('li h3, li span', parent).click(function() {
-    
-    // get the li that this header belongs to
-    var li = $(this).closest('li');
-    
-    // check to see if this li is not already being displayed
-    if (!$('p', li).is(':visible'))
-    {
-        // loop on all the li elements
-        $('li', parent).each(function() {
-            
-            // slide up the element and set it's marker to '+' 
-            $('p', $(this)).slideUp(delay);
-           
-        });
-    
-        // display the current li with a '-' marker
-        $('p', li).slideDown(delay);
-       
+jQuery(document).on('click', '.panel-heading span.clickable', function ($) {
+    var $this = jQuery(this);
+    if (!$this.hasClass('panel-collapsed')) {
+        $this.parents('.panel').find('.panel-body').slideUp();
+        $this.addClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+    } else {
+        $this.parents('.panel').find('.panel-body').slideDown();
+        $this.removeClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
     }
-    else {
-        $('p', li).slideUp(delay);
-          
+});
+jQuery(document).on('click', '.panel div.clickable', function ($) {
+    var $this = jQuery(this);
+    if (!$this.hasClass('panel-collapsed')) {
+        $this.parents('.panel').find('.panel-body').slideUp();
+        $this.addClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+    } else {
+        $this.parents('.panel').find('.panel-body').slideDown();
+        $this.removeClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
     }
-    $('span',li).toggleClass('glyphicon-plus glyphicon-minus');
+});
+jQuery(document).ready(function ($) {
+    $('.panel-heading span.clickable').click();
+    $('.panel div.clickable').click();
 });
