@@ -10,10 +10,8 @@
 ?>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
-<!--<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>-->
+
+
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -33,77 +31,18 @@ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh
 				'after'  => '</div>',
 			) );
 		?>
-<?php echo 'Begin'; ?>
+
 <div>
 <!---------------------     ----------------------->
 
-  <p>Envelope icon as a link:
-    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
-  </p>
-  
-  
-  <div class="">
-    <h4>Manage Email Notifications</h4>
-    <div class="">
-        <div class="">
-            <div class="panel panel-default">
-                <div class="panel-heading clickable">
-                <div id="format-test">
-                    <h3 class="panel-title">
-                    Question 1: How do I get in touch with someone for web site support?
-                    </h3>
-                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>
-                </div>
-                </div>
-                <div class="panel-body">
-                This is a longer line with more text to show how that space will collapse in mobile..
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
- <div class="">
-    <div class="">
-        <div class="">
-            <div class="panel panel-default">
-                <div class="panel-heading clickable">
-                <div id="format-test">
-                    <h3 class="panel-title">
-                    Question 1: How do I get in touch with someone for web site support?
-                    </h3>
-                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>
-                </div>
-                </div>
-                <div class="panel-body">
-                This is a longer line with more text to show how that space will collapse in mobile..
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
- <div class="">
-    <div class="">
-        <div class="">
-            <div class="panel panel-default">
-                <div class="panel-heading clickable">
-                <div id="format-test">
-                    <h3 class="panel-title">
-                    Question 1: How do I get in touch with someone for web site support?
-                    </h3>
-                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>
-                </div>
-                </div>
-                <div class="panel-body">
-                This is a longer line with more text to show how that space will collapse in mobile..
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+	<div class="widget-area" role="complementary">
+		<?php dynamic_sidebar('web-care-questions'); ?>
+	</div>
+ 
   
 <!---------------------     ----------------------->
 </div>
-<?php echo 'End'; ?>
+
 
 
 

@@ -1,38 +1,26 @@
-window.onload = function() {
-    if (window.jQuery) {  
-        // jQuery is loaded  
-        alert("Yeah!");
-    } else {
-        // jQuery is not loaded
-        alert("Doesn't Work");
-    }
-}
+// window.onload = function() {
+//     if (window.jQuery) {  
+//         // jQuery is loaded  
+//         alert("Yeah!");
+//     } else {
+//         // jQuery is not loaded
+//         alert("Doesn't Work");
+//     }
+// }
 
-jQuery(document).on('click', '.panel-heading span.clickable', function ($) {
-    var $this = jQuery(this);
-    if (!$this.hasClass('panel-collapsed')) {
-        $this.parents('.panel').find('.panel-body').slideUp();
-        $this.addClass('panel-collapsed');
-        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-    } else {
-        $this.parents('.panel').find('.panel-body').slideDown();
-        $this.removeClass('panel-collapsed');
-        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-    }
-});
-jQuery(document).on('click', '.panel div.clickable', function ($) {
-    var $this = jQuery(this);
-    if (!$this.hasClass('panel-collapsed')) {
-        $this.parents('.panel').find('.panel-body').slideUp();
-        $this.addClass('panel-collapsed');
-        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-    } else {
-        $this.parents('.panel').find('.panel-body').slideDown();
-        $this.removeClass('panel-collapsed');
-        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-    }
-});
 jQuery(document).ready(function ($) {
-    $('.panel-heading span.clickable').click();
-    $('.panel div.clickable').click();
+    //toggle the component with class accordion_body
+    $(".accordion_head").click(function () {
+        if ($('.accordion_body').is(':visible')) {
+            $(".accordion_body").slideUp(300);
+            $(".plusminus").text('+');
+        }
+        if ($(this).next(".accordion_body").is(':visible')) {
+            $(this).next(".accordion_body").slideUp(300);
+            $(this).children(".plusminus").text('+');
+        } else {
+            $(this).next(".accordion_body").slideDown(300);
+            $(this).children(".plusminus").text('-');
+        }
+    });
 });

@@ -992,9 +992,6 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
-
-
-
 .post-image {
   	width: 100%;
   	margin: 1em 0;
@@ -1066,7 +1063,6 @@ a:active {
 	padding: .2em;
     background-color: #dcdcdc;
 }
-
 
 .entry-footer {
 	margin-top: 1em;
@@ -1149,6 +1145,26 @@ a:active {
 }
 
 
+/*--------------------------------------------------------------
+## Web care page
+--------------------------------------------------------------*/
+
+.accordion_container { max-width: 850px; min-width: 40px; } 
+.accordion_head { 
+	background-color:#fff; 
+	color: #000; 
+	cursor: pointer; 
+	font-family: arial; 
+	font-size: 1em; 
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+.accordion_body { background: #fff; } 
+.accordion_body p { padding: 1em .4em; margin: 0px; background:#f3f3f3; } 
+.plusminus { font-size: 1.5em; font-weight: bold; text-align: center; margin-left: 20px;
+}
 
 /*--------------------------------------------------------------
 ## Footer
@@ -1793,24 +1809,3 @@ object {
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 
-.clickable
-{
-    cursor: pointer;
-}
-
-.clickable .glyphicon
-{
-    background: rgba(0, 0, 0, 0.15);
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 4px
-}
-
-.panel-heading span
-{
-    margin-top: -23px;
-    font-size: 15px;
-    margin-right: -9px;
-}
-a.clickable { color: inherit; }
-a.clickable:hover { text-decoration:none; }
