@@ -338,7 +338,8 @@ add_action( 'widgets_init', '_edgeside_widgets_init' );
  * Enqueue scripts and styles.
  */
 function _edgeside_scripts() {
-	
+
+
 	
 	wp_enqueue_style( '_edgeside-style', get_stylesheet_uri() );
 
@@ -346,7 +347,10 @@ function _edgeside_scripts() {
 
 	wp_enqueue_script( '_edgeside-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 	
-	wp_enqueue_script( '_edgeside-questions', get_template_directory_uri() . '/js/questions.js', array('jquery'), '20151215', true );
+	wp_enqueue_script( '_edgeside-questions', get_template_directory_uri() . '/js/questions.js', array('jquery','	jquery-ui-slider','jquery-effects-blind', 'jquery-ui-core'), '20151215', true );
+	
+
+	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -354,13 +358,7 @@ function _edgeside_scripts() {
 }
 add_action( 'wp_enqueue_scripts', '_edgeside_scripts' );
 
-// function load_ui_scripts() {
-// 	wp_register_script('jquery-ui', 'https://code.jquery.com/ui/1.12.0/jquery-ui.js');
-// // 	wp_register_script('questions', get_template_directory_uri() . '/js/questions.js', array('jquery'));
-	
-// 	wp_enqueue_script('jquery-ui');
-// }
-// add_action('wp_enqueue_script', 'load_ui_scripts');
+
 
 /**
  * Implement the Custom Header feature.

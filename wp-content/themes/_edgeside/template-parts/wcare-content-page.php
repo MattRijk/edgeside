@@ -28,12 +28,28 @@
 				'after'  => '</div>',
 			) );
 		?>
-		<div class="widget-area" role="complementary">
-		  <p>hello, world</p>
-		  <?php dynamic_sidebar('web-care-questions'); ?>
-		</div>
-<?php echo 'hello php.'; ?>
-<p class="tagline">From Cloud9 IDE!</p>
+<?php echo 'Begin'; ?>
+<div>
+<!---------------------     ----------------------->
+<ul id="toggle-view">
+    <li >
+        <h3 style='background:#4c97d0;color:#fff;'>Section one</h3>
+        <span style='background:#4c97d0;color:#fff;' class='glyphicon glyphicon-plus'></span>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
+    </li>
+    <br>
+    <li>
+        <h3 style='background:#4c97d0;color:#fff;'>section two</h3>
+        <span style='background:#4c97d0;color:#fff;' class='glyphicon glyphicon-plus'></span>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
+    </li>
+</ul>
+
+  
+<!---------------------     ----------------------->
+</div>
+<?php echo 'End'; ?>
+
 
 
 	</div><!-- .entry-content -->
