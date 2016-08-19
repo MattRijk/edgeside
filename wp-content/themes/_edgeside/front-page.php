@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary-front-page" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<section id="main-container">
+		<section id="main-container">
 			<!-- front-page-text-1 widget area -->
 				<div id="" class="widget-area" role="complementary">
 					<?php dynamic_sidebar('front-page-text-1'); ?>
@@ -41,7 +41,7 @@ get_header(); ?>
 				</div>
 			<!-- #front-page-text-2 widget area-->
 				
-			</section>
+		</section>
 			
 			<section id="services-container">
 				

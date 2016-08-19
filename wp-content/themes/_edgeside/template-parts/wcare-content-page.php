@@ -35,14 +35,33 @@
 <div>
 <!---------------------     ----------------------->
 
-	<div class="widget-area" role="complementary">
-		<?php dynamic_sidebar('web-care-questions'); ?>
-	</div>
+<section id="webcare-services">
+	<aside>
+		<!------ Web Care Text Widget 2------>
+		<p></p>
+		
+		<h1>Monthly Maintenance & Reporting</h1>
+		<p></p>
+	</aside>
 	
 	
-	<!-------------------- ------------------->
-<div id='main-webplans'>
+	<aside>
+		<!------ Web Care Text Widget 2------>
+		<h1>Support Time</h1>
+		<p></p>
+		<h1>Consulting</h1>
+		<p></p>
+	</aside>
+	
+	
+	<aside>
+		<!------ Free Consultation Form------>
+		<!-- [form] -->
+	</aside>
+</section>
 
+
+<section id='main-webplans'>
 
 <aside class="webplans-aside">
 <div class="webplans-title">
@@ -52,7 +71,7 @@
 </div>
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-1" class="tooltip-input">
-		<label for="someID-1" class="tooltip-label"><p>Software updates</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-1" class="tooltip-label"><p>Software updates</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -60,7 +79,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-2" class="tooltip-input">
-		<label for="someID-2" class="tooltip-label"><p>Security Monitoring</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-2" class="tooltip-label"><p>Security Monitoring</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -68,7 +87,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>Spam Protection and Cleanup</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>Spam Protection and Cleanup</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -76,7 +95,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>Daily Back Up and Restore</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>Daily Back Up and Restore</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -84,7 +103,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>DDOS & Hacker Protection</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>DDOS & Hacker Protection</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -92,7 +111,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-4" class="tooltip-input">
-		<label for="someID-4" class="tooltip-label"><p>Detailed Monthly Report</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-4" class="tooltip-label"><p>Detailed Monthly Report</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -100,7 +119,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-4" class="tooltip-input">
-		<label for="someID-4" class="tooltip-label"><p>30 minutes Support Time</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-4" class="tooltip-label"><p>30 minutes Support Time</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -129,7 +148,7 @@
 	</div>
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-15" class="tooltip-input">
-		<label for="someID-15" class="tooltip-label"><p>Software updates</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-15" class="tooltip-label"><p>Software updates</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -137,7 +156,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-2" class="tooltip-input">
-		<label for="someID-2" class="tooltip-label"><p>Security Monitoring</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-2" class="tooltip-label"><p>Security Monitoring</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -145,7 +164,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>Spam Protection and Cleanup</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>Spam Protection and Cleanup</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -153,7 +172,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>Daily Back Up and Restore</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>Daily Back Up and Restore</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -161,7 +180,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>DDOS & Hacker Protection</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>DDOS & Hacker Protection</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -169,7 +188,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-4" class="tooltip-input">
-		<label for="someID-4" class="tooltip-label"><p>Detailed Monthly Report</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-4" class="tooltip-label"><p>Detailed Monthly Report</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -177,7 +196,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-4" class="tooltip-input">
-		<label for="someID-4" class="tooltip-label"><p>30 minutes Support Time</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-4" class="tooltip-label"><p>30 minutes Support Time</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -208,7 +227,7 @@
 	</div>
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-1" class="tooltip-input">
-		<label for="someID-1" class="tooltip-label"><p>Software updates</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-1" class="tooltip-label"><p>Software updates</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -216,7 +235,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-2" class="tooltip-input">
-		<label for="someID-2" class="tooltip-label"><p>Security Monitoring</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-2" class="tooltip-label"><p>Security Monitoring</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -224,7 +243,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>Spam Protection and Cleanup</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>Spam Protection and Cleanup</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -232,7 +251,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>Daily Back Up and Restore</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>Daily Back Up and Restore</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -240,7 +259,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-3" class="tooltip-input">
-		<label for="someID-3" class="tooltip-label"><p>DDOS & Hacker Protection</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-3" class="tooltip-label"><p>DDOS & Hacker Protection</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -248,7 +267,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-4" class="tooltip-input">
-		<label for="someID-4" class="tooltip-label"><p>Detailed Monthly Report</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-4" class="tooltip-label"><p>Detailed Monthly Report</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -256,7 +275,7 @@
 	
 	<div class="tooltip">  
 		<input type="checkbox" value="selected" id="someID-4" class="tooltip-input">
-		<label for="someID-4" class="tooltip-label"><p>30 minutes Support Time</p><i class="fa fa-question-circle" aria-hidden="true"></i></label> 
+		<label for="someID-4" class="tooltip-label"><p>30 minutes Support Time</p><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></label> 
 		<div role="tooltip" id="tooltipID" class="tooltip-content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum autem nemo, et odit officia ut illo provident fuga excepturi modi. Lorem ipsum dolor sit amet.
 		</div> <!--/.tooltip-content-->
@@ -275,14 +294,22 @@
 	<div class="contact-us">
 		<a herf="">Contact Us</a>
 	</div>
-</aside>		
+</aside>
+</section>
+<!---------------------     ----------------------->
+<section id="web-care-questions">
+	<div class="widget-area" role="complementary">
+		<?php dynamic_sidebar('web-care-questions'); ?>
+	</div>
+</section>
+<!-------------------- ----------------------------->
+
 <script src="https://use.fontawesome.com/27c4becfd6.js"></script>
 </div>
-	<!-------------------- ------------------->
+<!-------------------- ------------------->
  
-  
-<!---------------------     ----------------------->
-</div>
+
+
 
 
 
