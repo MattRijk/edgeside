@@ -210,7 +210,7 @@ function _edgeside_widgets_init() {
 	register_sidebar( array(
 		'name'          => 'Web Care',
 		'id'            => 'web-care',
-		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
 		'after_title'   => '</h2>',
@@ -227,6 +227,36 @@ function _edgeside_widgets_init() {
 	
 	/* _______ Web Care Widgets _______*/
 		//Web Care Page Widget Area
+		
+		/*  Web Care Services Widgets  */
+			register_sidebar( array(
+		'name'          => 'Web Care Service One',
+		'id'            => 'web-care-service-one',
+		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
+		'after_title'   => '</h2>',
+		) );
+	
+		register_sidebar( array(
+		'name'          => 'Web Care Service Two',
+		'id'            => 'web-care-service-two',
+		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
+		'after_title'   => '</h2>',
+		) );
+		
+			register_sidebar( array(
+		'name'          => 'Web Care Consult Form',
+		'id'            => 'web-care-consult-form',
+		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
+		'after_title'   => '</h2>',
+		) );
+		
+		/*  -END- Web Care Services Widgets  */
 		
 	register_sidebar( array(
 		'name'          => 'Web Care Questions',

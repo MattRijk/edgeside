@@ -1146,6 +1146,23 @@ a:active {
 /*--------------------------------------------------------------
 ## Web care page
 --------------------------------------------------------------*/
+#webcare-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#webcare-services aside {
+	max-width: 270px;
+	width: 100%;
+    /*flex: 0 1 calc(33% - 1em);*/
+    /*background: #e6e6ff;*/
+}
+
+
+#webcare-services h1 {margin: 0; }
 
 .questions-container {
 	text-align: center;
@@ -1169,11 +1186,27 @@ a:active {
 }
 
 .accordion_body { background: #fff; } 
-.accordion_body p { padding: 1em .4em; margin: 0px; background:#f3f3f3; } 
+.accordion_body p { padding: 1em .4em; margin: 0px; background:#f3f3f3; text-align: left;} 
 
 .plusminus { font-size: 2.5em; font-weight: bold;  margin-left: 20px; line-height: 30px; }
 
 /***** Web Care Plans  */
+
+#webcare-services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#webcare-services p {
+	margin-bottom: 2em;
+}
+
+#web-plan-contact-form input[type="text"] {
+	width: 100%;
+}
 
 #main-webplans {
 margin: 0 auto;
@@ -1788,6 +1821,21 @@ object {
 }
   
 /** Web Care Plans */
+
+#webcare-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#webcare-services aside {
+	max-width: 270px;
+    /*flex: 0 1 calc(33% - 1em);*/
+    /*background: #e6e6ff;*/
+}
+
 #main-webplans {
 	margin-bottom: 50px;
 	max-width:1000px;
@@ -1804,6 +1852,7 @@ object {
     /*border: 1px solid blue;*/
     margin: 0 auto;
 }
+
 
 
 #web-care-questions {
