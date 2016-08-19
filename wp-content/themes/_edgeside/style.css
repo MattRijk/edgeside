@@ -1166,6 +1166,104 @@ a:active {
 .plusminus { font-size: 1.5em; font-weight: bold; text-align: center; margin-left: 20px;
 }
 
+/***** Web Care Plans  */
+
+#main-webplans {
+margin: 0 auto;
+max-width: 1000px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.webplans-aside {
+max-width: 270px;
+width: 270px;
+/*border: 1px solid blue;*/
+margin: .1em auto;
+}
+
+.webplans-title {
+margin: 1.5em 0;
+}
+
+.webplans-title-center {
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+margin:0
+}
+
+.webplans-title-center h1,h3, h5 {
+font-family: arial;
+}
+
+.tooltip-label {
+font-size: 1em;
+font-family: 'Helvetica' serif;
+background:#fff;
+padding: 0.4em;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.tooltip-label p {
+	margin: 0;
+	font-family: arial;
+	font-size: .8em;
+}
+
+.tooltip-input {
+display: none;
+} /*Hide input element*/
+
+.tooltip-content {
+margin: 0 .5em 1.5em .5em;
+padding: 1em;
+background-color: #ececec;
+font-family: arial;
+font-size: .8em;
+}
+.tooltip-input:not(checked) ~ .tooltip-content {
+display: none;
+}
+.tooltip-input:checked ~ .tooltip-content {       
+display: block;
+}
+
+.fa {
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+font-size: 1.1em;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.contact-us {
+display: flex;
+justify-content: center;
+font-weight: bold;
+font-family: arial;
+margin: 25px 0px;
+}
+
+.contact-us a {
+	/*border: 1px solid #3567b3;*/
+	padding: 10px;
+	background: #3567b3;
+	color: #fff;
+}
+
+.contact-us a:hover {
+background-color: #103061;
+}
+
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
@@ -1678,7 +1776,26 @@ object {
 
 }
   
- 
+/** Web Care Plans */
+#main-webplans {
+margin-bottom: 50px;
+max-width:1000px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.webplans-aside {
+    max-width: 270px;
+    width: 270px;
+    /*border: 1px solid blue;*/
+    margin: 0 auto;
+}
+
+
+/** */
 
 }
 
