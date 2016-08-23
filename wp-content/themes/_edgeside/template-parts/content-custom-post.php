@@ -44,6 +44,9 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
+	
+			<?#php _edgeside_paging_nav(); ?>
+
 
 
 	<footer class="entry-footer">

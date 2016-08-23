@@ -19,7 +19,7 @@ get_header(); ?>
 
 			get_template_part( 'template-parts/content-custom', get_post_format() );
 
-			the_post_navigation();
+
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
@@ -32,7 +32,7 @@ get_header(); ?>
 		<div id="simple-author-box">
 			<?php if ( function_exists( 'wpsabox_author_box' ) ) echo wpsabox_author_box(); ?>
 		</div><hr>
-		
+
 		<h2 class="blog-widget-title">Related Articles</h2>
 		<div id="simple-related-post">
 			<div class="widget-area" role="complementary">
@@ -40,14 +40,12 @@ get_header(); ?>
 			</div>
 		</div>
 
-		</main><!-- #main -->
 
+		</main><!-- #main -->
 
 	
 	</div><!-- #primary -->
 	
 
-<?php 
-get_sidebar(); 
-get_footer(); 
-?>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

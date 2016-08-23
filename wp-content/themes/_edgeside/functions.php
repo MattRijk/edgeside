@@ -229,7 +229,7 @@ function _edgeside_widgets_init() {
 		//Web Care Page Widget Area
 		
 		/*  Web Care Services Widgets  */
-			register_sidebar( array(
+	register_sidebar( array(
 		'name'          => 'Web Care Service One',
 		'id'            => 'web-care-service-one',
 		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
@@ -238,7 +238,7 @@ function _edgeside_widgets_init() {
 		'after_title'   => '</h2>',
 		) );
 	
-		register_sidebar( array(
+	register_sidebar( array(
 		'name'          => 'Web Care Service Two',
 		'id'            => 'web-care-service-two',
 		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
@@ -247,7 +247,7 @@ function _edgeside_widgets_init() {
 		'after_title'   => '</h2>',
 		) );
 		
-			register_sidebar( array(
+	register_sidebar( array(
 		'name'          => 'Web Care Consult Form',
 		'id'            => 'web-care-consult-form',
 		'before_widget' => '<section id="web-care-widget" class="widget %2$s">',
@@ -455,5 +455,32 @@ function new_excerpt_more($more) {
 add_filter('excerpt_more', 'new_excerpt_more');
 
 
+function pagination_nav() {
+    global $wp_query;
+ 
+    if ( $wp_query->max_num_pages > 1 ) { ?>
+        <nav class="pagination" role="navigation">
+            <div class="nav-previous"><?php next_posts_link( '&larr; Older posts' ); ?></div>
+            <div class="nav-next"><?php previous_posts_link( 'Newer posts &rarr;' ); ?></div>
+        </nav>
+<?php }
+}
 
+
+function pagination_bar() {
+    global $wp_query;
+ 
+    $total_pages = $wp_query->max_num_pages;
+ 
+    if ($total_pages > 1){
+        $current_page = max(1, get_query_var('paged'));
+ 
+        echo paginate_links(array(
+            'base' => get_pagenum_link(1) . '%_%',
+            'format' => '/page/%#%',
+            'current' => $current_page,
+            'total' => $total_pages,
+        ));
+    }
+}
 

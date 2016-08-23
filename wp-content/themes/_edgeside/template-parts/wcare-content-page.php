@@ -11,8 +11,6 @@
 
 <!-- Latest compiled and minified CSS -->
 
-
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php the_title( '<h1 id="page-title" class="entry-title">', '</h1>' ); ?>
@@ -34,64 +32,25 @@
 
 <div>
 <!---------------------     ----------------------->
-<!-----               ------>
+
 <section id="webcare-services">
 	<aside>
-		<div>
-		<!------ Web Care Text Widget 2------>
-		<p>Sed purus eros, vestibulum eget interdum vel, ornare et augue. Nam ornare sapien tortor, 
-		quis tincidunt justo imperdiet sed. Morbi vitae ipsum lacinia, accumsan ex et, 
-		elementum ex. Praesent sit amet pretium mauris. Quisque non arcu vel est pulvinar placerat.
-		</p>
-		
-		<h1>Monthly Maintenance & Reporting</h1>
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis libero. Nunc condimentum,
-		tellus a auctor vulputate, felis felis scelerisque arcu, eu ultricies felis elit eu turpis.
-		Aliquam vitae scelerisque libero. Mauris non vestibulum nulla, quis efficitur ligula. 
-		Proin eleifend, elit sit amet tincidunt ultricies, lorem ante scelerisque leo, vel pretium augue 
-		justo eu tortor.
-		</p>
+		<div id="" class="widget-area" role="complementary">
+			<?php dynamic_sidebar('web-care-service-one'); ?>
 		</div>
 	</aside>
 	
 	
 	<aside>
-		<div>
-		<!------ Web Care Text Widget 2------>
-		<h1>Support Time</h1>
-		<p>
-		Mauris a commodo augue. Proin nisl ex, rhoncus in rhoncus eget, imperdiet nec neque. 
-		Aliquam id tortor enim. Nam sit amet dapibus elit. Vivamus auctor velit ac libero consectetur euismod.
-		Mauris imperdiet lacus sit amet metus cursus 
-		facilisis. Nullam laoreet vitae leo vel faucibus. 
-		Pellentesque blandit nisi eleifend nunc luctus aliquam.
-		</p>
-		<h1>Consulting</h1>
-		<p>
-		Quisque luctus risus sem, at convallis quam viverra sit amet. Sed eget rhoncus ex. 
-		Cras non faucibus elit. Nullam neque ligula, tincidunt congue consectetur sit amet, 
-		condimentum vitae felis. Suspendisse fermentum a augue id tincidunt. 
-		Pellentesque vulputate velit ex, et blandit nisi placerat sit amet. 
-		Pellentesque sed pharetra felis.
-		</p>
+		<div id="" class="widget-area" role="complementary">
+			<?php dynamic_sidebar('web-care-service-two'); ?>
 		</div>
 	</aside>
 	
 	
-	<aside id="web-contact-form" >
-		<div  >
-		<!------ Free Consultation Form------>
-		<!-- [form] -->
-		<h1>Free Consultation</h1>
-		<form id="web-plan-contact-form" action="demo_form.asp">
-		First Name:<br> <input type="text" name="FirstName" value=""><br>
-		Last Name: <br><input type="text" name="LastName" value=""><br>
-		Phone:<br> <input type="text" name="FirstName" value=""><br>
-		Email:<br> <input type="text" name="LastName" value=""><br>
-		Interested: <br><input type="text" name="FirstName" value=""><br>
-		<input type="submit" value="Submit">
-		</form>
+	<aside id="web-contact-form">
+		<div id="" class="widget-area" role="complementary">
+			<?php dynamic_sidebar('web-care-consult-form'); ?>
 		</div>
 	</aside>
 </section>

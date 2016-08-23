@@ -28,34 +28,46 @@ get_header(); ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
-
+	
 			<?php
-			endif;
+			endif; ?>
 
-			
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
-			
+		<?php	
+			/* Start the Loop */ ?>
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php 
 				/*
 				 * Include the Post-Format-specific template for the content.
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content-custom-post', get_post_format() ); 
+				get_template_part( 'template-parts/content-custom-post', get_post_format() ); ?>
+				
+
+					<?php endwhile; ?>
+					
 			
-			endwhile;
 
-			the_posts_navigation();
+			<?#php wp_pagenavi(); ?>
+			<?php _edgeside_paging_nav(); ?>
+			<?#php kriesi_pagination(); ?>
 
-		else :
+			
+		
+		<?php else : ?>
 
-			get_template_part( 'template-parts/content-mypost', 'none' );
 
-		endif; ?>
+		<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+		<?php endif; ?>
+		
+		
 
 		</main><!-- #main -->
+		
 	</div><!-- #primary -->
+	
+	
 
-<?php
-get_sidebar();
-get_footer();
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
