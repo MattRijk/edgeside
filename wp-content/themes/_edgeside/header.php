@@ -56,11 +56,7 @@
 			
 		</nav><!-- #site-navigation -->
 		
-		<!-- search box -->
-	<div id="search-box" class="widget-area" role="complementary" style="overflow: hidden;">
-		<?php dynamic_sidebar('search-box'); ?>
-	</div>
-		<!-- #search box -->
+
 		
 	<?php if ( function_exists('yoast_breadcrumb') ) {
 	yoast_breadcrumb('<p id="breadcrumbs">','</p>');

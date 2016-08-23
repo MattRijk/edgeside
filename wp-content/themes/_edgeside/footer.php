@@ -25,11 +25,13 @@
 
 	<div id="footer-widget-container">
 		<!-- footer one section -->
-		<div class="widget-area" role="complementary">
-			<?php dynamic_sidebar('footer-one'); ?>
+		<div id="footer-one-container">
+			<div class="widget-area" role="complementary">
+				<?php dynamic_sidebar('footer-one'); ?>
+			</div>
 		</div>
+
 		<!-- #footer one section -->
-		
 		<!-- footer two section -->
 		<div class="widget-area" role="complementary">
 			<?php dynamic_sidebar('footer-two'); ?>
@@ -60,8 +62,14 @@
 			<?php dynamic_sidebar('footer-six'); ?>
 		</div
 		<!-- #footer six section -->
+
+	
 	</div>
-		
+		<div id="ipad-footer-one" >
+			<div class="widget-area" role="complementary">
+				<?php dynamic_sidebar('footer-one'); ?>
+			</div>
+		</div>
 		<div class="site-info">
 			<p>Copyright &copy; Edge Side Media 2016</p>
 		</div><!-- .site-info -->

@@ -36,7 +36,7 @@ get_header(); ?>
 			<!-- #main widget area -->
 				
 			<!-- front-page-text-2 widget area -->
-				<div id="" class="widget-area" role="complementary">
+				<div id="front-text-two" class="widget-area" role="complementary">
 					<?php dynamic_sidebar('front-page-text-2'); ?>
 				</div>
 			<!-- #front-page-text-2 widget area-->

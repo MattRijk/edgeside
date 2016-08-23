@@ -34,26 +34,31 @@
 <!---------------------     ----------------------->
 
 <section id="webcare-services">
-	<aside>
-		<div id="" class="widget-area" role="complementary">
-			<?php dynamic_sidebar('web-care-service-one'); ?>
-		</div>
-	</aside>
+	<div class='webcare-text'>
+		<aside>
+			<div id="" class="widget-area" role="complementary">
+				<?php dynamic_sidebar('web-care-service-one'); ?>
+			</div>
+		</aside>
 	
 	
-	<aside>
-		<div id="" class="widget-area" role="complementary">
-			<?php dynamic_sidebar('web-care-service-two'); ?>
-		</div>
-	</aside>
 	
+		<aside>
+			<div id="" class="widget-area" role="complementary">
+				<?php dynamic_sidebar('web-care-service-two'); ?>
+			</div>
+		</aside>
+	</div>
 	
-	<aside id="web-contact-form">
-		<div id="" class="widget-area" role="complementary">
-			<?php dynamic_sidebar('web-care-consult-form'); ?>
-		</div>
-	</aside>
-</section>
+	<div class='webcare-form'>
+		<aside id="web-contact-form">
+			<div id="" class="widget-area" role="complementary">
+				<?php dynamic_sidebar('web-care-consult-form'); ?>
+			</div>
+		</aside>
+	</div>
+</section>	
+
 
 
 
