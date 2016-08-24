@@ -52,6 +52,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Full-Navigation
 # Full-Header
 # Full-Content
+	## 404
 # Full-Footer
 --------------------------------------------------------------*/
 
@@ -61,7 +62,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 
 html {
-	font-family: sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
@@ -902,6 +903,10 @@ a:active {
 	display: none;
 }
 
+#ipad-lower-nav {
+	display: none;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -1610,6 +1615,7 @@ object {
 }
 
 
+
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -1657,6 +1663,10 @@ object {
 	
 	#ipad-social-icon {
 		margin-top: .2em;
+	}
+	
+	#ipad-right-nav-links{
+		margin-bottom: .5em
 	}
 	
 	#ipad-right-nav-links a {
@@ -1793,7 +1803,6 @@ object {
 		flex-wrap: wrap;
 		justify-content: space-around;
 
-
 	}
 	
 	
@@ -1818,7 +1827,25 @@ object {
 } /* end of ipad media queries */
 
 
+@media (min-width: 500px) and (max-width: 601px) {
+	
+	#web-care-form-container {
+		margin: 1em 0;
+		display: flex;
+		flex-direction: column;
+	    justify-content: space-around;
+	    align-items: baseline;
+	}
+	
+	#web-care-text {
+		width: 100%;
+	}
+	
+	#web-care-form {
+		width: 100%;
+	}
 
+}
 
 
 /*--------------------------------------------------------------
@@ -2113,6 +2140,25 @@ object {
 	
 	.fa .fa-question-circle {
 		font-size: 1.8em;
+	}
+	
+	/* 404 page */
+	
+	#page-content-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: baseline; 
+		
+	}
+	
+	#404-box-back-home {
+		
+		
+	}
+	
+	aside#404-box-search{
+		background-color: #97b9d4;
 	}
 	
 
