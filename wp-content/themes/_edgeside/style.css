@@ -1087,6 +1087,7 @@ a:active {
 
 #main-img-caption {
 	font-size: 100%;
+	padding: 0 1em;
 }
 
 /*--------------------------------------------------------------
@@ -1621,25 +1622,56 @@ object {
 	    min-width: 500px;	
   	}
   	
+  	/* header */
+  	
   	#site-navigation {
 	    max-width: 1200px;
 	    min-width: 500px;
   
 	}
 	
-#site-navigation ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #3d78c1;
-    align-items: center;
-}
+	#site-navigation ul {
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	    background-color: #3d78c1;
+	    align-items: center;
+	}
 	
 	#site-navigation ul li a {
 		/*border: 1px solid #333;*/
 		background-color: #3d78c1;
 		padding: 0 1.2em;
+	}
+	
+	
+	#ipad-lower-nav {
+		display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    align-items: center;
+	    margin: 0 1.5em;
+	}
+	
+	#ipad-social-icon {
+		margin-top: .2em;
+	}
+	
+	#ipad-right-nav-links a {
+		text-decoration: none;
+	    color: #000;
+	    border: 1px solid #000;
+	    padding: 0.4em;
+	    margin: 0 .2em;	
+		
+	}
+	
+	/* Page */
+	
+	#primary.content-area {
+    	margin: 0 auto;
 	}
 	
 	/* Blog */
@@ -1778,6 +1810,10 @@ object {
 		text-align: center;
 	}
 	
+	#social-icons {
+		display: none;
+	}
+	
 	
 } /* end of ipad media queries */
 
@@ -1857,11 +1893,11 @@ object {
 	}
 	
 	#header-right-nav-area {
-		height: 40px;
-		float: right;
-		display: flex;
-		flex-direction: row;
-
+	    height: 40px;
+	    float: right;
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
 	}
 	
 	#header-right-nav-links {
@@ -1898,6 +1934,14 @@ object {
 	
 	#menu-header-right-nav a:hover {
 		background-color: rgba(107, 154, 240, 0.6);
+	}
+	
+	#social-icons-header {
+		margin-bottom: .5em;
+	}
+	
+	#ipad-lower-nav {
+		display: none;
 	}
 	
 

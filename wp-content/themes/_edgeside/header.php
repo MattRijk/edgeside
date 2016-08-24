@@ -58,9 +58,27 @@
 		
 
 		
-	<?php if ( function_exists('yoast_breadcrumb') ) {
-	yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-	} ?>
+	 <?php if ( function_exists('yoast_breadcrumb') ) {
+	  yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+	 } ?>
+	
+	<div id="ipad-lower-nav">
+		<div>
+		    <div id="" class="widget-area" role="complementary">
+				<?php dynamic_sidebar('search'); ?>
+			</div>
+		</div>
+		<div id="ipad-social-icon">
+			<div id="" class="widget-area" role="complementary">
+				<?php dynamic_sidebar('social-icons'); ?>
+			</div>
+		</div>
+		<div id="ipad-right-nav-links">
+			<a href="">About</a>
+			<a href="">Blog</a>
+			<a href="">Contact</a>
+		</div>
+	</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
