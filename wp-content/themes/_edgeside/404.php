@@ -19,21 +19,18 @@ get_header(); ?>
 			
 				<div class="page-content">
 				<div id="page-content-container">
-					<aside id="404-box-back-home">
+					<aside class="box-back-home">
 						<div >
 							<img id="" class="" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/404-back-home400x300.svg"/>
-	
-							<a href="/">
-							<h2 id="404-back-home-button">BACK HOME</h2>	
-							</a>
 
+							<h2 class="back-home-button"><a href="/">BACK HOME</a></h2>	
 						</div>
 					</aside>
 					
-					<aside id="404-box-search">
+					<aside class="box-search">
 						<div >
 							<img id="" class="" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/404-search-400x300.svg"/>
-							<div>
+							<div class="box-search-form">
 							<?php get_search_form(); ?>
 							</div>
 						</div>
