@@ -27,9 +27,13 @@
 		<div class="site-branding">
 			<div>
 				<a href="https://edgeside001-mattrijk.c9users.io" >
-				<img id="logo-sm" class="logo" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/edge-side-logo.svg"/>
+					<img id="logo-sm" class="logo" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/edge-side-logo.svg"/>
+					<img id="logo-lg" class="logo-lg" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/edge-side-logo-no-numbers.svg"/>
 				</a>
-			</div>	
+			</div>
+			<div>
+					<img class="logo-num" src="https://edgeside001-mattrijk.c9users.io/wp-content/themes/_edgeside/img/edge-side-logo-num.svg"/>
+			</div>
 
 			<div id="header-right-area">
 				
@@ -74,9 +78,7 @@
 			</div>
 		</div>
 		<div id="ipad-right-nav-links">
-			<a href="">About</a>
-			<a href="">Blog</a>
-			<a href="">Contact</a>
+			<?php dynamic_sidebar('ipad-header-right-nav'); ?>
 		</div>
 	</div>
 	</header><!-- #masthead -->

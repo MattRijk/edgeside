@@ -104,6 +104,17 @@ add_action( 'after_setup_theme', '_edgeside_content_width', 0 );
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	
+	register_sidebar( array(
+		'name'          => 'ipad-Header-Right-Nav',
+		'id'            => 'ipad-header-right-nav',
+		'before_widget' => '<section id="header-nav" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 id="" class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	
 	register_sidebar( array(
 		'name'          => 'Search',
 		'id'            => 'search-box',

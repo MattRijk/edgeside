@@ -429,7 +429,6 @@ dd {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
-
 }
 
 table {
@@ -553,16 +552,89 @@ textarea {
 	text-align: center;
 	line-height: 50px;
 	color: #fff;
-	
-	
 }
 
-#primary-menu a:hover {	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1); }
+/*#primary-menu a:hover {	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1); }*/
 
 #primary-menu a:active { /*background-color: transparent; */
-	background-color: green;
+	
 }
 
+/*#site-navigation li  li.current-menu-item a { color:#B2C629; }*/
+/*#site-navigation li li.current_page_item  a { color:#B2C629; }*/
+
+
+#site-navigation li a:hover,
+#site-navigation li.current_page_item a,
+#site-navigation li.current-menu-item a,
+#site-navigation li.current-menu-parent a,
+#site-navigation li.current-post-ancestor a  {
+	box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+#header-nav li a:hover,
+#header-nav li.current_page_item a,
+#header-nav li.current-menu-item a,
+#header-nav li.current-menu-parent a,
+#header-nav li.current-post-ancestor a  {
+	background-color: #3d78c1;
+	color: #fff;
+}
+
+
+#header-nav ul {
+	display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#menu-ipad-header-nav {
+	padding-left:0;
+}
+
+/* logo */
+
+.site-branding {
+	display: block;
+}
+
+.logo-num { display:none;}
+
+.logo-lg { display: none; }
+
+
+/* footer nav highlighting */
+
+#menu-footer-menu li a:hover,
+#menu-footer-menu li.current_page_item a,
+#menu-footer-menu li.current-menu-item a,
+#menu-footer-menu li.current-menu-parent a,
+#menu-footer-menu li.current-post-ancestor a  { background-color:rgba(107, 154, 240, 0.6); }
+
+#menu-our-work li a:hover,
+#menu-our-work li.current_page_item a,
+#menu-our-work li.current-menu-item a,
+#menu-our-work li.current-menu-parent a,
+#menu-our-work li.current-post-ancestor a  { background-color:rgba(107, 154, 240, 0.6); }
+
+
+#menu-search-marketing li a:hover,
+#menu-search-marketing li.current_page_item a,
+#menu-search-marketing li.current-menu-item a,
+#menu-search-marketing li.current-menu-parent a,
+#menu-search-marketing li.current-post-ancestor a  { background-color:rgba(107, 154, 240, 0.6); }
+
+#menu-websites li a:hover,
+#menu-websites li.current_page_item a,
+#menu-websites li.current-menu-item a,
+#menu-websites li.current-menu-parent a,
+#menu-websites li.current-post-ancestor a  { background-color:rgba(107, 154, 240, 0.6); }
+
+#menu-website-management li a:hover,
+#menu-website-management li.current_page_item a,
+#menu-website-management li.current-menu-item a,
+#menu-website-management li.current-menu-parent a,
+#menu-website-management li.current-post-ancestor a  { background-color:rgba(107, 154, 240, 0.6); }
 
 
 
@@ -1430,7 +1502,7 @@ background-color: #103061;
 
 #menu-footer-menu a {
 	width:100%;
-	border: 2px solid #000;
+	border: 1px solid #000;
 	text-decoration: none;
 	padding:5px;
 	margin:0px;
@@ -1456,7 +1528,7 @@ background-color: #103061;
 
 #menu-footer-menu-2 a {
 	width:100%;
-	border: 2px solid #000;
+	border: 1px solid #000;
 	text-decoration: none;
 	padding:5px;
 	margin:0px;
@@ -1789,9 +1861,9 @@ object {
 }
 
 /*--------------------------------------------------------------
-### 500px - 1024 Screens *iPad
+### 501px - 1024 Screens *iPad
 --------------------------------------------------------------*/
-@media (min-width: 500px) and (max-width: 1024px) {
+@media (min-width: 501px) and (max-width: 1024px) {
   	
   	#page {
   		max-width: 1200px;
@@ -1863,6 +1935,20 @@ object {
 	    padding: 0.4em;
 	    margin: 0 .2em;
 	}
+	
+	/* Logo */
+	
+ 	.site-branding {
+		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	
+	.logo-lg { display: inline; }
+	
+	.logo { display: none; }
+
+ 	.logo-num { display:inline;}
 	
 	/* Page */
 	
@@ -2117,6 +2203,15 @@ object {
 		align-items: flex-end;
 	}
 	
+	.logo-num { display:none;}
+
+	.logo { display:none;}
+	
+	.logo-lg {display:inline;}
+	
+
+	
+	
 	#header-right-area {
 		display: flex;
 		flex-direction: column;
@@ -2154,6 +2249,7 @@ object {
 	#header-nav ul { 
 		margin-left: 3em; 
 		padding: 0;
+		margin-bottom: 1.5em;
 	}
 	
 	#menu-header-right-nav li { list-style: none; margin-top: .3em;}
