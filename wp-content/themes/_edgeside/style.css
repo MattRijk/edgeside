@@ -454,6 +454,7 @@ input[type="submit"] {
 	line-height: 1;
 	padding: .6em 1em .4em;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	margin-top: .2em;
 }
 
 button:hover,
@@ -927,13 +928,16 @@ textarea {
 	background-color: #fff;
 }
 
-.search-form {
-	margin: .9em 0;
-}
+/*.search-box {*/
+/*	margin: .9em 0;*/
+/*	width: 270px;*/
+/*}*/
 
 #search-box {
-   margin: 0;
+    margin: 0;
+    width: 270px;
 }
+
 
 .search-field {
 	color: #666;
@@ -1219,6 +1223,10 @@ textarea {
 /*--------------------------------------------------------------
 ## Web Care Page
 --------------------------------------------------------------*/
+
+
+
+
 #webcare-services {
     display: flex;
     flex-direction: row;
@@ -1805,6 +1813,11 @@ object {
 	    margin: 0;
 	    background: #97b9d4;
 	    white-space: nowrap;
+	    display: inline;
+	}
+	
+	.search-box form {
+	    display: inline;
 	}
 	
 	.box-search-form form input[type="submit"] {
@@ -1911,7 +1924,11 @@ object {
 	    flex-wrap: wrap;
 	    justify-content: space-between;
 	    align-items: center;
-	    margin: 0 1.5em;
+	    margin: .2em 1.5em;
+	}
+	
+	#ipad-lower-nav-search {
+		margin-bottom: 0.5em;
 	}
 	
 	#ipad-social-icon {
@@ -1919,7 +1936,7 @@ object {
 	}
 	
 	#ipad-right-nav-links{
-		margin-bottom: .5em
+		margin-bottom: .2em;
 	}
 	
 	#ipad-right-nav-links a:hover {
@@ -2033,13 +2050,9 @@ object {
 	
 	.webcare-text {
 		 margin: 0 2.5em;
+		 
 	}
 	
-
-	.webcare-form {
-	    width: 100%;
-	    margin: 0 2.5em;
-	}
 	
 	.questions-container {
 	    text-align: center;
@@ -2407,10 +2420,9 @@ object {
 	}
 	
 	.webcare-text {
-	    display: flex;
-	    justify-content: space-around;
-	    align-items: stretch;
+		
 	}
+	
 	
 	#webcare-services aside {
 	    max-width: 270px;

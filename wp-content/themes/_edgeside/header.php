@@ -67,7 +67,7 @@
 	 } ?>
 	
 	<div id="ipad-lower-nav">
-		<div>
+		<div id="ipad-lower-nav-search">
 		    <div id="" class="widget-area" role="complementary">
 				<?php dynamic_sidebar('search'); ?>
 			</div>

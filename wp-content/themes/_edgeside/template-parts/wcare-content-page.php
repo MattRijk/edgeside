@@ -41,16 +41,17 @@
 			</div>
 		</aside>
 	
-	
-	
+	</div>
+	<div class='webcare-text'>
 		<aside>
 			<div id="" class="widget-area" role="complementary">
 				<?php dynamic_sidebar('web-care-service-two'); ?>
 			</div>
 		</aside>
 	</div>
-	
-	<div class='webcare-form'>
+
+	<div class='webcare-text'>
+		<h2>Free Consultation</h2>
 		<aside id="web-contact-form">
 			<div id="" class="widget-area" role="complementary">
 				<?php dynamic_sidebar('web-care-consult-form'); ?>
