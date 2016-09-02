@@ -861,7 +861,6 @@ textarea {
 #page-widget {
     width: 100%;
     margin: 0 0 1.5em 0;
-    background-color: #3d78c1;
 }
 
 #page-main-img-widget {
@@ -874,11 +873,12 @@ textarea {
 	display: none;
 }
 
-#main-image {
+.main-image {
 	position: relative;
+	margin-top: 3em;
 }
 
-#main-img-textbox {
+.main-img-textbox {
     background-color: #3d78c1;
     position: absolute;
     height: 6em;
@@ -1016,6 +1016,15 @@ textarea {
 	font-size: .9em;
 }
 
+/*--------------------------------------------------------------
+## Front Page
+--------------------------------------------------------------*/
+/*#primary-front-page { background: #d6d6d6; }*/
+
+
+#aside-page-widget {
+    background: #3d78c1;
+}
 
 /*--------------------------------------------------------------
 ## Posts and pages
@@ -1048,7 +1057,7 @@ textarea {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: .5em 0 0;
+	margin: 3em 0 0;
 }
 
 .page-links {
@@ -1156,7 +1165,9 @@ textarea {
     color: #fff;
 }
 
-#front-text-two { margin: 5.5em 0 2em 0; }
+#front-text-two {
+    margin: 2.5em 0 2em 0;
+} 
 
 
 
@@ -1700,7 +1711,7 @@ object {
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
-.wp-caption {
+/*.wp-caption {
 	margin-bottom: 1.5em;
 	max-width: 100%;
 }
@@ -1713,11 +1724,403 @@ object {
 
 .wp-caption .wp-caption-text {
 	margin: 0.8075em 0;
+}*/
+
+.caption-hero {
+    background-color: #3d78c1;
+    position: absolute;
+    height: 4em;
+    top: 75%;
+    left: 32%;
+    word-break: normal;
+    z-index: 500;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
 }
 
-.wp-caption-text {
-	text-align: center;
+.caption-hero h4 {
+	color: #fff;
+	text-align: left;
+	font-size:.75em;
+	padding: 0 .8em;
+	
 }
+
+.caption-hero-seo {
+	background-color: #3d78c1;
+    position: absolute;
+    height: 4em;
+    top: 95%;
+    left: 0;
+    word-break: normal;
+    z-index: 500;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.caption-hero-seo h4 {
+	color: #fff;
+	text-align: left;
+	font-size:95%;
+	padding: 0 .8em;
+}
+
+.caption-hero-smedia {
+	background-color: #3d78c1;
+    position: absolute;
+    height: 4em;
+    top: 90%;
+    left: 0;
+    word-break: normal;
+    z-index: 500;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.caption-hero-smedia h4 {
+	color: #fff;
+	text-align: left;
+	font-size:95%;
+	padding: 0 .8em;
+}
+
+.caption-hero-web-dev {
+	background-color: #3d78c1;
+    position: absolute;
+    height: 4em;
+    top: 73%;
+    left: 0;
+    word-break: normal;
+    z-index: 500;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    
+}
+
+.caption-hero-web-dev h4 {
+	color: #fff;
+	text-align: left;
+	font-size:95%;
+	padding: 0 .8em;
+	
+}
+
+.caption-hero-webcare {
+	background-color: #3d78c1;
+    position: absolute;
+    height: 4em;
+    top: 65%;
+    left: 0;
+    word-break: normal;
+    z-index: 500;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.caption-hero-webcare h4 {
+	color: #fff;
+	text-align: left;
+	font-size:95%;
+	padding: 0 .8em;
+	
+}
+
+	
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
+/* Main Image Heros and Captions */
+
+
+
+
+@media (min-width: 500px ) and (max-width: 1024px) { 
+	.caption-hero {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 85%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero h4 {
+	    clear: both;
+	    font-size: 1.3em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-seo {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 70%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-seo h4 {
+	    clear: both;
+	    font-size: 1.2em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-smedia {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 70%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-smedia h4 {
+	    clear: both;
+	    font-size: 1.0em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-web-dev {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 70%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-web-dev h4 {
+	    clear: both;
+	    font-size: 1.1em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-webcare {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 78%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-webcare h4 {
+	    clear: both;
+	    font-size: 1.3em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+}
+
+
+@media (min-width: 500px ) and (max-width: 700px) { 
+	.caption-hero-webcare {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 68%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-webcare h4 {
+	    clear: both;
+	    font-size: 1.2em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+}
+
+@media (min-width: 1025px ) { 
+	.caption-hero {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 85%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero h4 {
+	    clear: both;
+	    font-size: 1.3em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-seo {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 80%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-seo h4 {
+	    clear: both;
+	    font-size: 1.3em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-smedia {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 80%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-smedia h4 {
+	    clear: both;
+	    font-size: 1.25em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-web-dev {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 70%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-web-dev h4 {
+	    clear: both;
+	    font-size: 1.3em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+	.caption-hero-webcare {
+		background-color: #3d78c1;
+	    position: absolute;
+	    height: 6em;
+	    top: 78%;
+	    left: 32%;
+	    word-break: normal;
+	    z-index: 500;
+	    width: 68%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: left;
+	    flex-wrap: wrap;
+	}
+	
+	.caption-hero-webcare h4 {
+	    clear: both;
+	    font-size: 1.3em;
+	    padding: 0 .7em;
+	    color: #fff;
+	}
+	
+}
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 ## Galleries
@@ -1768,6 +2171,9 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+
 
 
 
@@ -1994,6 +2400,9 @@ object {
 	    margin: 0;
 	}
 	
+	.page-content, .entry-content, .entry-summary {
+    	margin: 2.2em 0;
+	}
 
 	/* Front page */
 	
@@ -2008,7 +2417,7 @@ object {
 	}
 	
 	#front-text-two {
-		margin-top: 3.5em;
+		margin-top: 4em;
     	padding: 0 1em;
 	}
 	
@@ -2079,7 +2488,6 @@ object {
 	    margin-bottom: 2em;
 	    margin-right: 2em;
 	}
-	
 	
 	
 	
@@ -2171,7 +2579,7 @@ object {
 
 @media (min-width: 1025px) { 
 	#site-navigation {
-	    max-width: 1200px;
+	    max-width: 2000px;
 	    display: block;
 	}
 	
@@ -2305,8 +2713,10 @@ object {
 # Full-Content 1025px to 1200px
 --------------------------------------------------------------*/
 @media (min-width: 1025px) { 
+	
+	/*#page { max-width: 1200px; background-color: #fff;}*/
 
-	#page { max-width: 1200px; }
+	#page { max-width: 2000px; background-color: #fff;}
 	
 	#content {
 		display: flex;
@@ -2346,7 +2756,7 @@ object {
  	 	margin: 3em 0;
  	 }
  	 
- 	 #main-img-caption {
+ 	 .main-img-caption {
 	    font-size: 1.4em;
 	    padding: 0 1em;
 	    color: #fff;
@@ -2472,6 +2882,11 @@ object {
 		font-size: 1.8em;
 	}
 	
+	.page-content, .entry-content, .entry-summary {
+    	margin: 1em 0;
+	}
+
+	
 	/* 404 Full Page */
 	
 	#page-content-container {
@@ -2565,7 +2980,7 @@ object {
  .widget-main-title-footer {
  	margin-bottom: 0;
     margin-right: 1.2em;
-    margin-left: .3em;
+    margin-left: 0;
     font-size: 0.85em;
     white-space: nowrap;
     color: #000;

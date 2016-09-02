@@ -161,7 +161,7 @@ add_action( 'after_setup_theme', '_edgeside_content_width', 0 );
 	register_sidebar( array(
 		'name'          => 'Front Page Aside One',
 		'id'            => 'front-page-one',
-		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'before_widget' => '<section id="aside-page-widget" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
@@ -170,7 +170,7 @@ add_action( 'after_setup_theme', '_edgeside_content_width', 0 );
 	register_sidebar( array(
 		'name'          => 'Front Page Aside Two',
 		'id'            => 'front-page-two',
-		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'before_widget' => '<section id="aside-page-widget" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
@@ -179,7 +179,7 @@ add_action( 'after_setup_theme', '_edgeside_content_width', 0 );
 	register_sidebar( array(
 		'name'          => 'Front Page Aside Three',
 		'id'            => 'front-page-three',
-		'before_widget' => '<section id="page-widget" class="widget %2$s">',
+		'before_widget' => '<section id="aside-page-widget" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 id="" class="widget-title">',
 		'after_title'   => '</h2>',
@@ -230,7 +230,7 @@ function _edgeside_widgets_init() {
 	register_sidebar( array(
 		'name'          => 'Social Media',
 		'id'            => 'page-3',
-		'before_widget' => '<section id="social-media-widget" class="widget %2$s">',
+		'before_widget' => '<section id="page-widget" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 id="page-widget-title" class="widget-title">',
 		'after_title'   => '</h2>',
@@ -438,7 +438,8 @@ require get_template_directory() . '/inc/jetpack.php';
 function add_search_to_wp_menu ( $items, $args ) {
 	if( 'primary' === $args -> theme_location ) {
 $items .= '<li class="menu-item menu-item-search">';
-$items .= '<form method="get" id="header-search" class="menu-search-form" action="' . get_bloginfo('home') . '/"><p><input class="text_input" type="text" value="" name="s" id="s" onfocus="if (this.value == \'Enter Text &amp; Click to Search\') {this.value = \'\';}" onblur="if (this.value == \'\') {this.value = \'Enter Text &amp; Click to Search\';}" /><input type="submit" class="my-wp-search" id="searchsubmit" value="search" /></p></form>';
+// changed get_bloginfo('home') to get_bloginfo('url')
+$items .= '<form method="get" id="header-search" class="menu-search-form" action="' . get_bloginfo('url') . '/"><p><input class="text_input" type="text" value="" name="s" id="s" onfocus="if (this.value == \'Enter Text &amp; Click to Search\') {this.value = \'\';}" onblur="if (this.value == \'\') {this.value = \'Enter Text &amp; Click to Search\';}" /><input type="submit" class="my-wp-search" id="searchsubmit" value="search" /></p></form>';
 $items .= '</li>';
 	}
 return $items;

@@ -14,23 +14,26 @@
 
 get_header(); ?>
 
+
+
 	<div id="primary-front-page" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<section id="main-container">
 			<!-- front-page-text-1 widget area -->
-				<div id="" class="widget-area" role="complementary">
-					<?php dynamic_sidebar('front-page-text-1'); ?>
-				</div>
+				<!--<div id="" class="widget-area" role="complementary">-->
+					
+					<?#php dynamic_sidebar('front-page-text-1'); ?>
+				<!--</div>-->
 			<!-- #front-page-text-1 widget area-->
 			
 			<!-- main widget area -->
-			<div id="main-image">
+			<div class="main-image">
 				<div class="widget-area" role="complementary">
 					<?php dynamic_sidebar('front-page-main'); ?>
 				</div>
-				<div id="main-img-textbox">
-					<h4 id="main-img-caption">We make your digital marketing dollars work double time.</h4>
+				<div class="caption-hero">
+					<h4>We make your digital marketing dollars work double time.</h4>
 				</div>
 			</div>
 			<!-- #main widget area -->
@@ -40,7 +43,11 @@ get_header(); ?>
 					<?php dynamic_sidebar('front-page-text-2'); ?>
 				</div>
 			<!-- #front-page-text-2 widget area-->
-				
+			
+			<!-- hero_background img white -->
+
+			<!-- #hero_background img white -->
+		 
 		</section>
 			
 			<section id="services-container">
@@ -75,9 +82,11 @@ get_header(); ?>
 			</aside>
 			<!-- #site management widget -->
 			</section>
-
+			
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	
+	
 
-<?php
-get_footer();
+
+<?php get_footer();

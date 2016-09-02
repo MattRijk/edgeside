@@ -16,8 +16,17 @@
 		<?php the_title( '<h1 id="page-title" class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="widget-area" role="complementary">
-		<?php dynamic_sidebar('web-care'); ?>
+	<!--<div class="widget-area" role="complementary">-->
+	<!--	<?#php dynamic_sidebar('web-care'); ?>-->
+	<!--</div>-->
+	
+	<div class="main-image">
+		<div class="widget-area" role="complementary">
+			<?php dynamic_sidebar('web-care'); ?>
+		</div>
+		<div class="caption-hero-webcare">
+			<h4 class="">We make your digital marketing dollars work double time.</h4>
+		</div>
 	</div>
 
 	<div id="entry-content" class="entry-content">
