@@ -59,7 +59,7 @@
 		</aside>
 	</div>
 
-	<div class='webcare-text'>
+	<div id="webcare-form" class='webcare-text'>
 		<h2>Free Consultation</h2>
 		<aside id="web-contact-form">
 			<div id="" class="widget-area" role="complementary">

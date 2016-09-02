@@ -21,6 +21,15 @@
 
 	<div id="entry-content" class="entry-content">
 		
+	<div id="webcare-form-2" class='webcare-text'>
+		<p id="contact-p"><strong>We would love to help you with your project. Please fill out the form below and we will get back to you shortly.</strong></p>
+		<aside>
+			<div id="" class="widget-area" role="complementary">
+				<?php dynamic_sidebar('web-care-consult-form'); ?>
+			</div>
+		</aside>
+	</div>
+		
 		<?php
 			the_content();
 

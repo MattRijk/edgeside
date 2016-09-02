@@ -1282,6 +1282,49 @@ textarea {
 
 .plusminus { font-size: 2.5em; font-weight: bold;  margin-left: 20px; line-height: 30px; }
 
+
+.wpcf7-form-control.wpcf7-submit { 
+    border: none;
+    border-radius: 3px;
+    background: #1e374e; 
+    box-shadow: none;
+    color: #fff; 
+    font-size: 14px;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    margin-top: .2em;
+	
+}
+
+.wpcf7-form-control.wpcf7-submit:hover { 
+    border: 2px solid #1e374e;
+    border-radius: 3px;
+    background: #fff; 
+    box-shadow: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    margin-top: .2em;
+	
+}
+#webcare-form-2 {margin: 1em 0; }
+
+#contact-p {font-size: 12px;}
+
+#webcare-form-2 p { font-size: 12px; font-weight: bold; color:#000; margin: 1em 0;} 
+
+#webcare-form-2 aside {margin-top: 1.5em;}
+
+.wpcf7-form-control.wpcf7-submit {margin: 1.5em 0; }
+
+.wpcf7-form-control.wpcf7-checkbox.wpcf7-validates-as-required{ display: flex; flex-direction: column;}
+
+.wpcf7-list-item { margin: .2em 0; }
+
 /*--------------------------------------------------------------
 ## Web Care Plans
 --------------------------------------------------------------*/
@@ -2458,8 +2501,8 @@ object {
 	}
 	
 	.webcare-text {
-		 margin: 0 2.5em;
-		 
+	    margin: 0 2.5em;
+	    width: 100%;
 	}
 	
 	
