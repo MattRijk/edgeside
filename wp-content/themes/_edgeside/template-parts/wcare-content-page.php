@@ -147,7 +147,7 @@
 	</div><!--/.tooltip-->
 	
 	<div class="contact-us">
-		<a herf="">Contact Us</a>
+		<a href="https://edgeside001-mattrijk.c9users.io/contact-us/">Contact Us</a>
 	</div>
 </aside>
 
@@ -224,7 +224,7 @@
 	</div><!--/.tooltip-->
 	
 	<div class="contact-us">
-		<a herf="">Contact Us</a>
+		<a href="https://edgeside001-mattrijk.c9users.io/contact-us/">Contact Us</a>
 	</div>
 </aside>	
 	
@@ -303,7 +303,7 @@
 	</div><!--/.tooltip-->
 	
 	<div class="contact-us">
-		<a herf="">Contact Us</a>
+		<a href="https://edgeside001-mattrijk.c9users.io/contact-us/">Contact Us</a>
 	</div>
 </aside>
 </section>

@@ -1423,19 +1423,20 @@ display: block;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.contact-us {
-display: flex;
-justify-content: center;
-font-weight: bold;
-font-family: arial;
-margin: 25px 0px;
-}
+	.contact-us {
+		display: flex;
+		justify-content: center;
+		font-weight: bold;
+		font-family: arial;
+		margin: 25px 0px;
+	}
 
 .contact-us a {
 	/*border: 1px solid #3567b3;*/
 	padding: 10px;
 	background: #3567b3;
 	color: #fff;
+	text-decoration: none;
 }
 
 .contact-us a:hover {
@@ -2129,7 +2130,7 @@ object {
 	
 	.caption-hero-web-dev h4 {
 	    clear: both;
-	    font-size: 1.3em;
+	    font-size: 1.2em;
 	    padding: 0 .7em;
 	    color: #fff;
 	}
