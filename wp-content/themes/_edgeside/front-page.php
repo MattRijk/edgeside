@@ -17,15 +17,10 @@ get_header(); ?>
 
 
 	<div id="primary-front-page" class="content-area">
+		<div id="box"> </div>
 		<main id="main" class="site-main" role="main">
 
 		<section id="main-container">
-			<!-- front-page-text-1 widget area -->
-				<!--<div id="" class="widget-area" role="complementary">-->
-					
-					<?#php dynamic_sidebar('front-page-text-1'); ?>
-				<!--</div>-->
-			<!-- #front-page-text-1 widget area-->
 			
 			<!-- main widget area -->
 			<div class="main-image">
@@ -36,25 +31,20 @@ get_header(); ?>
 					<h4>We make your digital marketing dollars work double time.</h4>
 				</div>
 			</div>
+	
 			<!-- #main widget area -->
-				
-			<!-- front-page-text-2 widget area -->
-				<div id="front-text-two" class="widget-area" role="complementary">
-					<?php dynamic_sidebar('front-page-text-2'); ?>
-				</div>
-			<!-- #front-page-text-2 widget area-->
-			
-			<!-- hero_background img white -->
-
-			<!-- #hero_background img white -->
-		 
 		</section>
+		<div id="lower-box"> </div>
+		
+		<!-- front-page-text-2 widget area -->
+			<div id="front-text-two" class="widget-area" role="complementary">
+				<?php dynamic_sidebar('front-page-text-2'); ?>
+			</div>
+		<!-- #front-page-text-2 widget area-->
+		
 			
-			<section id="services-container">
-				
-				<!-- front-page-text-2 widget area -->
-			<!-- #front-page-text-2 widget area-->
-				
+		<section id="services-container">
+			
 			<!-- search opt widget -->
 			<aside class="services">
 				<div id="page-widget" class="widget-area" role="complementary">
@@ -80,8 +70,8 @@ get_header(); ?>
 				</div>
 				
 			</aside>
-			<!-- #site management widget -->
-			</section>
+		<!-- #site management widget -->
+		</section>
 			
 		</main><!-- #main -->
 	</div><!-- #primary -->

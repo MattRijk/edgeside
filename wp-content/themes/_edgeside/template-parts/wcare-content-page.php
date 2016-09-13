@@ -20,7 +20,7 @@
 	<!--	<?#php dynamic_sidebar('web-care'); ?>-->
 	<!--</div>-->
 	
-	<div class="main-image">
+	<div class="main-image-wcare">
 		<div class="widget-area" role="complementary">
 			<?php dynamic_sidebar('web-care'); ?>
 		</div>
@@ -28,7 +28,7 @@
 			<h4 class="">We make your digital marketing dollars work double time.</h4>
 		</div>
 	</div>
-
+	<div id="lower-box"> </div>
 	<div id="entry-content" class="entry-content">
 		<?php
 			the_content();

@@ -15,11 +15,10 @@
 		<?php the_title( '<h1 id="page-title" class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<!--<div class="widget-area" role="complementary">-->
-	<!--	<?#php dynamic_sidebar('page-3'); ?>-->
-	<!--</div>-->
+
 	
-	<div class="main-image">
+	<div class="main-image-smedia">
+		 
 		<div class="widget-area" role="complementary">
 			<?php dynamic_sidebar('page-3'); ?>
 		</div>
@@ -27,7 +26,7 @@
 			<h4 class="">We make your digital marketing dollars work double time.</h4>
 		</div>
 	</div>
-
+	<div id="lower-box"> </div>
 	<div id="entry-content" class="entry-content">
 		<?php
 			the_content();
@@ -37,7 +36,9 @@
 				'after'  => '</div>',
 			) );
 		?>
-		
+		<!--<div id='box'>-->
+		<!--	<p>box</p>-->
+		<!--</div>-->
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>

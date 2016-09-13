@@ -15,7 +15,8 @@
 
 get_header(); ?>
 
-	<div id="primary-wcare-page" class="content-area">
+	<div id="primary" class="content-area">
+		<div id="box"> </div>
 		<main id="main" class="site-main" role="main">
 
 			<?php
