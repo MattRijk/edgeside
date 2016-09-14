@@ -865,7 +865,7 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
 
 #page-widget {
     width: 100%;
-    margin: 0 0 1.5em 0;
+    padding-bottom: 3em;
 }
 
 #page-main-img-widget {
@@ -880,7 +880,7 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
 
 .main-image {
     position: relative;
-    margin: -5% auto 0;
+    margin: -15% auto 0;
 }
 
 
@@ -901,6 +901,9 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
     flex-wrap: wrap;
 }
 
+#front-text-2 p {
+	margin-top: 0;
+}
 
 .hwim-text {
     height: auto;
@@ -1158,9 +1161,11 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
 }
 
 .front-page-ul {
-	margin-left: 10px;
-	padding-bottom: .5em;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding-bottom: 1em;
 }
+
 
 .front-page-li {
 	color: #fff;
@@ -1175,6 +1180,10 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
 #front-text-two {
     margin:0;
 } 
+
+div#front-text-two.widget-area {
+	padding-bottom: 3em;
+}
 
 .services-background {background-color: #e3e3e3; }
 
@@ -1550,12 +1559,13 @@ background-color: #103061;
 #colophon { background-color: #e3e3e3;}
 
 #footer-widget-container {
-	background-color: #e3e3e3;
+    background-color: #e3e3e3;
     padding-top: 1em;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 1em;
 }
 
 .widget.simple-social-icons {
@@ -1565,6 +1575,13 @@ background-color: #103061;
     width: 100%;
     margin: 0 auto;
 }
+
+#social-icons {
+	margin-bottom: 0;
+    margin-top: 2em;
+    margin-left: .5em;
+}
+
 
 .widget.simple-social-icons ul {
     padding: 1em auto 0;
@@ -2326,6 +2343,11 @@ object {
 	background-color: #bb0000 !important;
 }
 
+#social-icons {
+	margin-bottom: 0;
+    margin-top: 2em;
+    margin-left: .5em;
+}
 
 
 
@@ -2537,12 +2559,11 @@ object {
 		width: 100%;
 	}
 	
-	/*.main-image {*/
- /*   position: relative;*/
- /*   width: 85%;*/
- /*   margin: -50px auto 0;*/
-
-	/*}*/
+	.main-image {
+	    position: relative;
+	    width: 85%;
+	    margin: -5% auto 0;
+	}
 	
 
 	
@@ -2559,7 +2580,7 @@ object {
 	
 	#content {
 		display: flex;
-    	margin: 0 auto 2em;
+    	margin: 0 auto 0;
     	width: 100%;
 	}
 
@@ -3157,7 +3178,7 @@ object {
 	}
 	/* 404 End*/
 
-}
+
 
 
 /*--------------------------------------------------------------
@@ -3425,13 +3446,6 @@ object {
 	width:100%;
 }
 
-/*#middle-box {*/
-/*    height: 500px;*/
-/*    background-color: #fff;*/
-/*    width: 100%;*/
-/*    margin-top: -150px;*/
-   
-/*}*/
 
 
 
