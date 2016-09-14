@@ -34,15 +34,19 @@ get_header(); ?>
 	
 			<!-- #main widget area -->
 		</section>
+		<!--<div id="middle-box"></div>-->
 		<div id="lower-box"> </div>
 		
+		
+		<div class="services-background">
 		<!-- front-page-text-2 widget area -->
 			<div id="front-text-two" class="widget-area" role="complementary">
 				<?php dynamic_sidebar('front-page-text-2'); ?>
 			</div>
 		<!-- #front-page-text-2 widget area-->
+		</div>
 		
-			
+		<div class="services-background">	
 		<section id="services-container">
 			
 			<!-- search opt widget -->
@@ -72,7 +76,7 @@ get_header(); ?>
 			</aside>
 		<!-- #site management widget -->
 		</section>
-			
+		</div>	
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	
