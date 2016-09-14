@@ -18,19 +18,54 @@
 
 	</header><!-- .entry-header -->
 	
-
-	<div id="entry-content" class="entry-content">
+	
+	<div class="about-container">
 		
-		<?php
-			the_content();
 
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', '_edgeside' ),
-				'after'  => '</div>',
-			) );
-		?>
+	
 		
-	</div><!-- .entry-content -->
+		<div id="about-entry-content" class="entry-content">
+			<div class"about-box-container">
+				<h1>Matthew Rijk - Lead Developer</h1>
+		<div class="about-photo">
+			<img src="/wp-content/themes/_edgeside/img/matthew_rijk.jpg"></img>
+		</div>
+				<div class="about-box">
+					<h1>Development Stack</h1>
+					<div class="about-list-container">
+						<ul>
+							<li>Python</li>
+							<li>PHP</li>
+						</ul>
+						<ul>
+							<li>Wordpress</li>
+							<li>Django</li>
+						</ul>
+						<ul>
+							<li>Javascript</li>
+							<li>CSS</li>
+						</ul>
+						<ul>
+							<li>MySQL</li>
+						</ul>
+					</div>	
+					
+				</div>
+			</div> <!-- END about-box-container -->
+			<div class="about-content">
+				<?php
+					the_content();
+		
+					wp_link_pages( array(
+						'before' => '<div class="page-links">' . esc_html__( 'Pages:', '_edgeside' ),
+						'after'  => '</div>',
+					) );
+				?>
+			</div>
+		</div><!-- .entry-content -->
+	
+	</div>
+	
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php

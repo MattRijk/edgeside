@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary-index" class="content-area">
+		<main id="main-index" class="site-main" role="main">
 			
 		<!--Blog Post List Page. Displays all pages. -->
 		
@@ -64,10 +64,13 @@ get_header(); ?>
 		
 
 		</main><!-- #main -->
+		<div id="sidebar-index">
+			<?php get_sidebar(); ?>
+		</div>
 		
 	</div><!-- #primary -->
 	
 	
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

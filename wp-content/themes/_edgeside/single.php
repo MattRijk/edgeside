@@ -10,7 +10,7 @@
 get_header(); ?>
 
 	<!-- this page is connected to single post. -->
-	<div id="primary" class="content-area">
+	<div id="primary-single" class="content-area">
 		<main id="main" class="site-main" role="main">
 			
 

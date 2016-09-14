@@ -902,7 +902,7 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
 }
 
 #front-text-2 p {
-	margin-top: 0;
+	margin: 0 1em;
 }
 
 .hwim-text {
@@ -1002,6 +1002,11 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
 	width:100;
 }
 
+#content {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .entry-title {
 	margin: 0 0;
 
@@ -1024,6 +1029,12 @@ input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{ width:100%;}
 .entry-meta a {
 	text-decoration: none;
 	font-size: .9em;
+}
+
+/* Blog Post */
+
+#primary-single {
+	margin: 0 3em;
 }
 
 /*--------------------------------------------------------------
@@ -1185,7 +1196,13 @@ div#front-text-two.widget-area {
 	padding-bottom: 3em;
 }
 
-.services-background {background-color: #e3e3e3; }
+.services-background {background-color: #e3e3e3; padding-top: 20%; }
+div#background-two .services-background {background-color: #e3e3e3; padding-top: 2%;}
+
+/* about page */
+
+
+
 
 /*--------------------------------------------------------------
 ## Comments
@@ -1329,7 +1346,12 @@ div#front-text-two.widget-area {
     margin-top: .2em;
 	
 }
-#webcare-form-2 {margin: 1em 0; }
+/*#webcare-form-2 {margin: 1em 0; }*/
+
+#webcare-form-2 {
+    margin: 1em 0;
+    max-width: 450px;
+}
 
 #contact-p {font-size: 12px;}
 
@@ -1546,6 +1568,11 @@ background-color: #103061;
 		color: #fff;
 	}
 	/* 404 End*/
+	
+	/* about page */
+	#about-entry-content {
+    margin: 0 1em;
+	}
 
 /*--------------------------------------------------------------
 ## Footer
@@ -1824,6 +1851,7 @@ object {
     justify-content: center;
     align-items: left;
     flex-wrap: wrap;
+    
 }
 
 .caption-hero h4 {
@@ -1837,10 +1865,10 @@ object {
 
 
 /* SEO Mobile */
-	.main-image-seo {
-		margin: -150px auto 0;
-		position: relative;
-	}
+.main-image-seo {
+    margin: -15% auto 0;
+    position: relative;
+}
 
 	.caption-hero-seo {
 		background-color: #3d78c1;
@@ -1856,6 +1884,7 @@ object {
 	    justify-content: center;
 	    align-items: left;
 	    flex-wrap: wrap;
+	    margin-top:-11%;
 	}
 	
 	.caption-hero-seo h4 {
@@ -1872,10 +1901,10 @@ object {
 
 /* Web Dev Mobile */
 
-	.main-image-wdev {
-		margin: -150px auto 0;
-		position: relative;
-	}
+.main-image-wdev {
+    margin: -15% auto 0;
+    position: relative;
+}
 	
 	.caption-hero-web-dev {
 		background-color: #3d78c1;
@@ -1891,6 +1920,7 @@ object {
 	    justify-content: center;
 	    align-items: left;
 	    flex-wrap: wrap;
+	    margin-top:-11%;
 	}
 	
 	.caption-hero-web-dev h4 {
@@ -1902,10 +1932,10 @@ object {
 
  /* Web Care Mobile */
 
-	.main-image-wcare {
-		margin: -170px auto 0;
-	    position: relative;
-	}
+.main-image-wcare {
+    margin: -15% auto 0;
+    position: relative;
+}
 
 	.caption-hero-webcare {
 		background-color: #3d78c1;
@@ -1921,6 +1951,7 @@ object {
 	    justify-content: center;
 	    align-items: left;
 	    flex-wrap: wrap;
+	    margin-top:-11%;
 	}
 	
 	.caption-hero-webcare h4 {
@@ -1932,8 +1963,8 @@ object {
 
 /* Social Media Mobile */
 	.main-image-smedia {
-		margin: -150px auto 0;
-		position: relative;
+    margin: -15% auto 0;
+    position: relative;
 	}
 	
 	.caption-hero-smedia {
@@ -1950,6 +1981,7 @@ object {
 	    justify-content: center;
 	    align-items: left;
 	    flex-wrap: wrap;
+	    margin-top: -11%;
 	}
 	
 	.caption-hero-smedia h4 {
@@ -1987,12 +2019,19 @@ object {
 	    flex-wrap: wrap;
 	}
 	
+	.services-background {
+	    background-color: #e3e3e3;
+	    padding-top: 10px;
+	}
+	
 	.caption-hero h4 {
 	    clear: both;
 	    font-size: 1.3em;
 	    padding: 0 .7em;
 	    color: #fff;
 	}
+	
+	
 
 	/* Seo Page */
 	
@@ -2006,20 +2045,22 @@ object {
 	    position: relative;
 	    margin: -5% auto 0;
 	}
-	.caption-hero-seo {
-		background-color: #3d78c1;
-	    position: absolute;
-	    height: 6em;
-	    top: 83%;
-	    left: 32%;
-	    word-break: normal;
-	    z-index: 500;
-	    width: 68%;
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    align-items: left;
-	    flex-wrap: wrap;
+
+.caption-hero-seo {
+    background-color: #3d78c1;
+    position: absolute;
+    height: 6em;
+    top: 83%;
+    left: 32%;
+    word-break: normal;
+    z-index: 500;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    margin-top: -15px;
 	}
 	
 	.caption-hero-seo h4 {
@@ -2057,6 +2098,7 @@ object {
 	    justify-content: center;
 	    align-items: left;
 	    flex-wrap: wrap;
+	    margin-top: -15px;
 	}
 	
 	.caption-hero-web-dev h4 {
@@ -2091,6 +2133,8 @@ object {
 	    justify-content: center;
 	    align-items: left;
 	    flex-wrap: wrap;
+	    margin-top: -30px;
+
 	}
 	
 	.caption-hero-webcare h4 {
@@ -2124,6 +2168,7 @@ object {
 	    justify-content: center;
 	    align-items: left;
 	    flex-wrap: wrap;
+	    margin-top: -15px;
 	}
 	
 	.caption-hero-smedia h4 {
@@ -2566,6 +2611,11 @@ object {
 	    margin: -5% auto 0;
 	}
 	
+	.services-background {
+    background-color: #e3e3e3;
+    padding-top: 3em;
+}
+	
 
 	
 	.page-content, .entry-content, .entry-summary {
@@ -2716,6 +2766,11 @@ object {
 	
 	#social-icons {
 		display: none;
+	}
+	
+	/* Blog */
+	#primary-index {
+		margin:0 3em;
 	}
 	
 	
@@ -2898,6 +2953,9 @@ object {
 	#social-icons-header {
 		margin-bottom: .5em;
 	}
+	#social-icons-header .widget.simple-social-icons ul {
+		background:#e3e3e3;
+	}
 	
 	#ipad-lower-nav {
 		display: none;
@@ -2980,6 +3038,21 @@ object {
   	margin: 1em 2em;
   	min-width: 300px;
   }
+  
+  /* Blog */
+  #primary-index {
+  	display: flex;
+    margin-left: 1.5em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #sidebar-index {
+  	width: 25%;
+    margin-right: 1.5em;
+  }
+  
+  #main-index {width:70%;}
   
   #blog-sidebar-widget section {
    		margin:0;
@@ -3179,6 +3252,37 @@ object {
 	}
 	/* 404 End*/
 
+/* About Page */
+
+.about-container {
+	display: flex;
+    justify-content: space-around;
+}
+
+
+#about-entry-content {    
+	margin-top: 0;
+    max-width: 1000px; 
+}
+
+.about-box {
+	background: #333;
+	margin-bottom: 1em;
+}
+
+.about-box h1{
+    color: #fff;
+    padding: .5em 0 0 1em;
+    margin-bottom: 0;
+}
+.about-list-container {
+	display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 0;
+    padding: 0;
+    color: white;
+}
 
 
 
@@ -3454,8 +3558,10 @@ object {
     height: 120px;
     background-color: #e4e4e4;
     width: 100%;
-    margin-top: -5%;
+    margin-top: -100px;
     
 }
 
-
+#background-two {
+	background-color:#e3e3e3;
+}

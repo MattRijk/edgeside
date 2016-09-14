@@ -46,7 +46,7 @@ get_header(); ?>
 		<!-- #front-page-text-2 widget area-->
 		</div>
 		
-		<div class="services-background">	
+		<div id="background-two">	
 		<section id="services-container">
 			
 			<!-- search opt widget -->
