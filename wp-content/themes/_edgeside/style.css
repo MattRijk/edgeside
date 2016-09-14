@@ -1556,10 +1556,10 @@ background-color: #103061;
 /*--------------------------------------------------------------
 ## Footer Widgets
 --------------------------------------------------------------*/
-#colophon { background-color: #e3e3e3;}
+#colophon { background-color: #fff;}
 
 #footer-widget-container {
-    background-color: #e3e3e3;
+    background-color: #fff;
     padding-top: 1em;
     display: flex;
     flex-direction: column;
@@ -1569,7 +1569,7 @@ background-color: #103061;
 }
 
 .widget.simple-social-icons {
-    background: #e4e4e4;
+    background: #ffffff;
     width: 100%;
     margin: 0 auto;;
     width: 100%;
@@ -2513,8 +2513,9 @@ object {
 		margin-bottom: 0.5em;
 	}
 	
-	#ipad-social-icon {
+	#ipad-social-icon .widget.simple-social-icons {
 		margin-top: .2em;
+		background: #e3e3e3;
 	}
 	
 	#ipad-right-nav-links{

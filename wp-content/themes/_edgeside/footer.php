@@ -21,10 +21,13 @@
 			<?php dynamic_sidebar('social-icons'); ?>
 		</div>
 		<!-- #social icon section  -->
+	<hr>
 	
-
 	<div id="footer-widget-container">
 		<!-- footer one section -->
+		
+	
+		
 		<div id="footer-one-container">
 			<div class="widget-area" role="complementary">
 				<?php dynamic_sidebar('footer-one'); ?>
